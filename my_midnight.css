@@ -1,0 +1,93 @@
+.imply {
+  margin: 0 0 4px 0 !important;
+}
+.imply,
+.author {
+  display: block;
+  font-family: Inter, Arial, sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin: 0 8px 0 8px;
+}
+.author {
+  font-weight: 600;
+}
+.name {
+  display: block;
+  font-family: Inter, Arial, sans-serif;
+  color: #56ccff;
+  font-weight: 700;
+  font-size: 37px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.g-intro {
+  display: flex;
+  justify-content: center;
+}
+.intro {
+  justify-content: space-evenly;
+  width: 800px;
+}
+.intro-text {
+  display: block;
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  margin: 0 8px 18px 8px;
+}
+.tsdebut,
+.tsfearless,
+.tsspeaknow,
+.tsred,
+.ts1989,
+.tsreputation,
+.tslover,
+.tsfolklore,
+.tsevermore,
+.tsmidnights {
+  transition: all 200ms;
+  cursor: pointer;
+}
+.tsdebut:hover {
+  color: #80e580;
+}
+.tsfearless:hover {
+  color: #e9d064;
+}
+.tsspeaknow:hover {
+  color: #a47dd6;
+}
+.tsred:hover {
+  color: #cc3f54;
+}
+.ts1989:hover {
+  color: #9be1ff;
+}
+.tsreputation:hover {
+  color: #747071;
+}
+.tslover:hover {
+  color: #ec78c5;
+}
+.tsfolklore:hover {
+  color: #cdc9c0;
+}
+.tsevermore:hover {
+  color: #c79a69;
+}
+.tsmidnights:hover {
+  color: #334f97;
+}
+.tooltip {
+  --bs-tooltip-bg: #292929;
+  --bs-tooltip-max-width: 250px;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 1);
+}

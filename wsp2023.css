@@ -1,0 +1,57 @@
+.wsp-head {
+  font-family: Inter, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.g-wsp-list {
+  display: flex;
+  justify-content: center;
+}
+.wsp-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.wsp-img {
+  height: 400px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.wsp-img-end {
+  height: 400px;
+}
+.footer {
+  background-color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  text-align: center;
+}
+.footer-text {
+  font-family: Inter, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ffffff;
+}
+.footer-rc {
+  font-family: Inter, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ffffff;
+}
+.rc {
+  font-family: Inter, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.rc:hover {
+  text-decoration: underline;
+}

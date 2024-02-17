@@ -1,0 +1,29 @@
+.footer {
+  background-color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  text-align: center;
+}
+.g-f {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.footer-text,
+.footer-rc,
+.rc {
+  font-family: LINESeedSansTH, Inter, Arial, sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 12px;
+}
+.rc {
+  text-decoration: none;
+}
+.rc:hover {
+  text-decoration: underline;
+}
