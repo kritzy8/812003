@@ -405,6 +405,77 @@ html {
   width: 32px;
   margin-right: 12px;
 }
+
+/*text respondsive*/
+
+@media all and (max-width: 700px) {
+  .bh,
+  .twt-button,
+  .fb-button,
+  .li-button,
+  .dc-button,
+  .ig-button,
+  .yt-button,
+  .smalltext {
+    font-size: 14px !important;
+  }
+  .bigtext,
+  .kz-blue,
+  .kz-graphic,
+  .kz-photographer,
+  .kz-ts,
+  .kz-mc,
+  .kz-era,
+  .kz-last {
+    font-size: 40px;
+  }
+}
+@media all and (max-width: 500px) {
+  .profile-name,
+  .kz-info-head {
+    font-size: 32px;
+  }
+  .info-data-sh {
+    font-size: 20px;
+  }
+  .profile-desc,
+  .kz-info-data,
+  .kz-info-data-end {
+    font-size: 14px !important;
+  }
+  .bigtext,
+  .kz-blue,
+  .kz-graphic,
+  .kz-photographer,
+  .kz-ts,
+  .kz-mc,
+  .kz-era,
+  .kz-last {
+    font-size: 30px;
+  }
+  .smalltext {
+    font-size: 12px !important;
+  }
+}
+@media all and (max-width: 400px) {
+  .profile-name,
+  .kz-info-head {
+    font-size: 28px;
+  }
+  .bigtext,
+  .kz-blue,
+  .kz-graphic,
+  .kz-photographer,
+  .kz-ts,
+  .kz-mc,
+  .kz-era,
+  .kz-last {
+    font-size: 27px;
+  }
+}
+
+/*end of text respondsive*/
+
 .fa-solid,
 .fa-brands,
 .fa-solid:link,
