@@ -145,11 +145,9 @@ html {
 .ig-button:active,
 .yt-button:active {
   border: solid;
+  color: #ffffff;
   border-width: 3px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 13px;
-  padding-right: 13px;
+  padding: 7px 13px 7px 13px;
 }
 .twt-button {
   background-color: #1d9bf0;
@@ -159,7 +157,6 @@ html {
   background-color: #157bbe;
 }
 .twt-button:active {
-  color: #1d9bf0;
   border-color: #1d9bf0;
   background-color: #161617;
 }
@@ -168,10 +165,9 @@ html {
   color: #ffffff;
 }
 .fb-button:hover {
-  background-color: #0c4591;
+  background-color: #1355be;
 }
 .fb-button:active {
-  color: #2076ff;
   border-color: #2076ff;
   background-color: #161617;
 }
@@ -183,7 +179,6 @@ html {
   background-color: #065099;
 }
 .li-button:active {
-  color: #0a66c2;
   border-color: #0a66c2;
   background-color: #161617;
 }
@@ -195,7 +190,6 @@ html {
   background-color: #3c46b6;
 }
 .dc-button:active {
-  color: #5865f2;
   border-color: #5865f2;
   background-color: #161617;
 }
@@ -207,7 +201,6 @@ html {
   background-color: #8705c4;
 }
 .ig-button:active {
-  color: #a808f1;
   border-color: #a808f1;
   background-color: #161617;
 }
@@ -219,7 +212,6 @@ html {
   background-color: #b80808;
 }
 .yt-button:active {
-  color: #ff0000;
   border-color: #ff0000;
   background-color: #161617;
 }
