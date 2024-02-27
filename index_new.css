@@ -389,6 +389,10 @@ html {
   .kz-last {
     font-size: 40px;
   }
+  .g-intro {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
 }
 @media all and (max-width: 500px) {
   .profile-name,
@@ -415,6 +419,10 @@ html {
   }
   .smalltext {
     font-size: 12px !important;
+  }
+  .g-intro {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 @media all and (max-width: 400px) {
