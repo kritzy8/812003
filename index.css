@@ -146,7 +146,7 @@ html {
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
-  transition: box-shadow, color, background-color 200ms;
+  transition: box-shadow, color, background-color 200ms !important;
   text-align: center;
 }
 .twt-button:hover,
