@@ -1,0 +1,74 @@
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #56ccff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #34a6d6;
+}
+.ttt {
+  position: fixed;
+  background-color: #292929;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 80px;
+  border-style: none;
+  bottom: 30px;
+  right: 30px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+  transition: all 200ms;
+}
+.ttt:hover {
+  background-color: #1f1f1f;
+  color: #34a6d6;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+.lang-th {
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 18.1px;
+  color: #56ccff;
+  position: fixed;
+  background-color: #292929;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 100px;
+  border-style: none;
+  bottom: 30px;
+  left: 30px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+  transition: 200ms;
+}
+.lang-th:hover {
+  background-color: #1f1f1f;
+  color: #34a6d6;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+.fa-solid,
+.fa-brands,
+.fa-solid:link,
+.fa-brands:link,
+.fa-solid:visited,
+.fa-brands:visited {
+  text-decoration: none;
+  color: #56ccff;
+  transition: color 200ms;
+}
+.fa-solid:hover,
+.fa-brands:hover {
+  color: #34a6d6;
+}
