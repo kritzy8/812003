@@ -5,9 +5,9 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^/$ pages/index.html
 RewriteRule ^home/$ pages/index.html
 RewriteRule ^home$ /index.html
-RewriteRule ^me$ /me.html
+RewriteRule ^me$ /html/me.html
 RewriteRule ^th$ /index_th.html
-RewriteRule ^th/me$ /me_th.html
+RewriteRule ^th/me$ /html/me_th.html
 RewriteRule ^card$ /html/card.html
 RewriteRule ^link$ /html/link.html
 RewriteRule ^mymidnight$ /html/my_midnight.html
