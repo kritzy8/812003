@@ -85,10 +85,7 @@ html {
 .bh:active {
   border-width: 3px;
   border: solid;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 13px;
-  padding-right: 13px;
+  padding: 7px 13px 5px 13px;
   color: #ffffff;
   border-color: #56ccff;
   background-color: #161617;
@@ -249,7 +246,7 @@ html {
 }
 .jump:active {
   border: none;
-  padding: 10px 16px 10px 16px;
+  padding: 10px 16px 9px 16px;
   background-color: #ffffff;
   transition: all 0ms !important;
 }

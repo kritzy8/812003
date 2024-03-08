@@ -159,17 +159,14 @@ html {
 .dc-button,
 .ig-button,
 .yt-button {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 10px 16px 10px 16px;
   border-radius: 20px;
   border: none;
   font-family: Inter, Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
-  transition: 200ms;
+  transition: box-shadow, color, background-color 200ms !important;
   text-align: center;
 }
 .twt-button:hover,
@@ -518,10 +515,7 @@ html {
   justify-content: center;
 }
 .bh {
-  padding-top: 10px;
-  padding-bottom: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 10px 16px 8px 16px;
   border: none;
   border-radius: 24px;
   font-size: 16px;
@@ -544,10 +538,7 @@ html {
 .bh:active {
   border-width: 3px;
   border: solid;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 13px;
-  padding-right: 13px;
+  padding: 7px 13px 5px 13px;
   color: #ffffff;
   border-color: #56ccff;
   background-color: #161617;
