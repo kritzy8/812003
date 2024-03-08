@@ -28,6 +28,7 @@ html {
   left: 30px;
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
   transition: 200ms;
+  z-index: 1;
 }
 .lang-en:hover {
   background-color: #1f1f1f;
@@ -46,6 +47,7 @@ html {
   right: 30px;
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
   transition: all 200ms;
+  z-index: 1;
 }
 .ttt:hover {
   background-color: #1f1f1f;
