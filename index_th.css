@@ -26,16 +26,14 @@ html {
   background-color: #292929;
   font-size: 30px;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 14px;
-  padding-right: 14px;
+  padding: 10px 14px 10px 14px;
   border-radius: 80px;
   border-style: none;
   bottom: 30px;
   right: 30px;
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
   transition: 200ms;
+  z-index: 1;
 }
 .ttt:hover {
   background-color: #1f1f1f;
@@ -50,16 +48,14 @@ html {
   position: fixed;
   background-color: #292929;
   text-align: center;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 14px;
-  padding-right: 14px;
+  padding: 14px 14px 14px 14px;
   border-radius: 100px;
   border-style: none;
   bottom: 30px;
   left: 30px;
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
   transition: 200ms;
+  z-index: 1;
 }
 .lang-en:hover {
   background-color: #1f1f1f;
