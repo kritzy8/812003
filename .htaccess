@@ -10,7 +10,7 @@ RewriteRule ^th$ /index_th.html
 RewriteRule ^th/me$ /me_th.html
 RewriteRule ^card$ /html/card.html
 RewriteRule ^link$ /html/link.html
-RewriteRule ^mymidnight$ /my_midnight.html
+RewriteRule ^mymidnight$ /html/my_midnight.html
 RewriteRule ^love$ /html//love404.html
 RewriteRule ^404$ /html/404.html
 RewriteRule ^403$ /html/403.html
