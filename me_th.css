@@ -215,6 +215,57 @@ html {
   border-color: #ff0000;
   background-color: #161617;
 }
+.g-jump {
+  display: flex;
+  justify-content: center;
+  margin: 0px 8px 40px 8px;
+}
+.jump-head {
+  color: #ffffff;
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.g-jump-btn {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+  row-gap: 16px;
+  flex-wrap: wrap;
+  margin: 0px 400px 0px 400px;
+}
+.jump {
+  padding: 8px 14px 8px 14px;
+  border: solid;
+  border-radius: 24px;
+  border-width: 2px;
+  border-color: #56ccff;
+  font-size: 16px;
+  text-decoration: none;
+  transition: box-shadow, color, background-color 200ms;
+  text-align: center;
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #111111;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+}
+.jump:hover {
+  background-color: #56ccff;
+  color: #111111;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 1);
+}
+.jump:active {
+  border: none;
+  padding: 10px 16px 10px 16px;
+  background-color: #ffffff;
+  transition: all 0ms !important;
+}
+.jump:hover > .fa-wtb {
+  color: #000000;
+}
 .kz-info {
   display: flex;
   justify-content: space-evenly;
@@ -407,44 +458,62 @@ html {
   max-height: 500px;
   max-width: 500px;
 }
-@media screen and (max-width: 550px) {
-  .photo-container {
-    flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 5px;
-    margin-bottom: 5px;
-  }
-  .photo-container.nowrap {
-    flex-wrap: nowrap;
-  }
-  .photo-small {
-    max-height: 200px;
-    max-width: 500px;
-  }
-  .photo-medium {
-    max-height: 200px;
-    max-width: 500px;
-  }
-  .photo-medium.t {
-    max-height: 400px;
-    max-width: 175px;
-  }
-  .photo-medium.sq {
-    max-height: 275px;
-    max-width: 275px;
+.photo-xlarge {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 6px;
+  height: 100%;
+  width: 100%;
+  max-width: 900px;
+}
+@media all and (max-width: 1764px) {
+  .g-jump-btn {
+    margin: 0px 350px 0px 350px;
   }
 }
-/*.photo-placement:hover {
-  transform: scale(1.005);
-  box-shadow: 0px 12px 50px rgba(0, 0, 0, 1);
-}*/
-
-/*end of the new photo responsive method*/
-
-/*text responsive*/
-
+@media all and (max-width: 1664px) {
+  .g-jump-btn {
+    margin: 0px 300px 0px 300px;
+  }
+}
+@media all and (max-width: 1564px) {
+  .g-jump-btn {
+    margin: 0px 250px 0px 250px;
+  }
+}
+@media all and (max-width: 1464px) {
+  .g-jump-btn {
+    margin: 0px 200px 0px 200px;
+  }
+}
+@media all and (max-width: 1364px) {
+  .g-jump-btn {
+    margin: 0px 150px 0px 150px;
+  }
+}
+@media all and (max-width: 1264px) {
+  .g-jump-btn {
+    margin: 0px 100px 0px 100px;
+  }
+}
+@media all and (max-width: 1164px) {
+  .g-jump-btn {
+    margin: 0px 50px 0px 50px;
+  }
+}
+@media all and (max-width: 1064px) {
+  .g-jump-btn {
+    margin: 0px 8px 0px 8px;
+  }
+}
+@media all and (max-width: 842px) {
+  .fp-iframe {
+    height: 500px !important;
+  }
+}
 @media all and (max-width: 700px) {
   .bh,
+  .jump,
   .twt-button,
   .fb-button,
   .li-button,
@@ -452,6 +521,9 @@ html {
   .ig-button,
   .yt-button {
     font-size: 14px;
+  }
+  .fp-iframe {
+    height: 450px !important;
   }
 }
 @media all and (max-width: 500px) {
@@ -468,6 +540,11 @@ html {
     font-size: 14px !important;
   }
 }
+@media all and (max-width: 478px) {
+  .fp-iframe {
+    height: 520px !important;
+  }
+}
 @media all and (max-width: 400px) {
   .profile-name,
   .kz-info-head {
@@ -477,9 +554,6 @@ html {
 
 /*end of text responsive*/
 
-.img-fill {
-  object-fit: fill;
-}
 .yt-vid {
   margin-bottom: 20px;
 }
@@ -490,6 +564,7 @@ html {
   padding-bottom: 56.25%;
   height: 0;
   border-radius: 10px;
+  margin-bottom: 2px;
 }
 .yt-vid iframe,
 .yt-vid-nm iframe {
@@ -566,6 +641,14 @@ html {
 }
 .fa-black:hover {
   color: #111111;
+}
+.fa-wtb {
+  color: #ffffff;
+  margin-right: 4px;
+  transition: all 0ms;
+}
+.fa-wtb:hover {
+  color: #000000;
 }
 .bh:active > .fa-black {
   color: #ffffff;
