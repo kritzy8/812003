@@ -21,10 +21,7 @@ html {
   position: fixed;
   background-color: #292929;
   text-align: center;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 14px;
-  padding-right: 14px;
+  padding: 14px 14px 14px 14px;
   border-radius: 100px;
   border-style: none;
   bottom: 30px;
@@ -42,10 +39,7 @@ html {
   background-color: #292929;
   font-size: 30px;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 14px;
-  padding-right: 14px;
+  padding: 10px 14px 10px 14px;
   border-radius: 80px;
   border-style: none;
   bottom: 30px;
@@ -68,10 +62,7 @@ html {
   row-gap: 16px;
 }
 .bh {
-  padding-top: 10px;
-  padding-bottom: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 10px 16px 8px 16px;
   border: none;
   border-radius: 24px;
   font-size: 16px;
@@ -106,10 +97,7 @@ html {
   flex-wrap: wrap;
   row-gap: 16px;
   column-gap: 16px;
-  margin-top: 24px;
-  margin-bottom: 40px;
-  margin-left: 8px;
-  margin-right: 8px;
+  margin: 24px 8px 40px 8px;
 }
 .twt-button,
 .fb-button,
@@ -237,7 +225,7 @@ html {
   margin: 0px 400px 0px 400px;
 }
 .jump {
-  padding: 8px 14px 8px 14px;
+  padding: 8px 14px 7px 14px;
   border: solid;
   border-radius: 24px;
   border-width: 2px;
@@ -274,10 +262,7 @@ html {
   display: inline-block;
   background-color: #292929;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding: 18px 18px 18px 18px;
   border-radius: 14px;
   margin-bottom: 20px;
   margin-left: 8px;
@@ -290,10 +275,7 @@ html {
 .g-kz-info-no-bg,
 .g-kz-info-no-bg-nm {
   display: inline-block;
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding: 18px 18px 18px 18px;
   border-radius: 18px;
   margin-left: 8px;
   margin-right: 8px;
