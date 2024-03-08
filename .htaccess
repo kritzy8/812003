@@ -8,17 +8,17 @@ RewriteRule ^home$ /index.html
 RewriteRule ^me$ /me.html
 RewriteRule ^th$ /index_th.html
 RewriteRule ^th/me$ /me_th.html
-RewriteRule ^card$ /card.html
-RewriteRule ^link$ /link.html
+RewriteRule ^card$ /html/card.html
+RewriteRule ^link$ /html/link.html
 RewriteRule ^mymidnight$ /my_midnight.html
-RewriteRule ^love$ /love404.html
-RewriteRule ^404$ /404.html
-RewriteRule ^403$ /403.html
+RewriteRule ^love$ /html//love404.html
+RewriteRule ^404$ /html/404.html
+RewriteRule ^403$ /html/403.html
 
 RewriteRule ^fs2$ /fs2.html
 
-ErrorDocument 404 /404.html
-ErrorDocument 403 /403.html
+ErrorDocument 404 /html//404.html
+ErrorDocument 403 /html//403.html
 
 Redirect /ttb2023-1 https://docs.google.com/spreadsheets/d/1xpki9dWfYuxkn6DqrlugvF5noZ-ktAhb
 Redirect /ttb2023-2 https://docs.google.com/spreadsheets/u/0/d/1nBi0CWdtPG_mqwO0_YqsXEw3QR-l-ILULrkiiTic2Gc/htmlview#gid=106940637
