@@ -17,12 +17,9 @@
 }
 .g-kz-info {
   display: inline-block;
-  background-color: #282829;
+  background-color: #292929;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding: 18px 18px 18px 18px;
   border-radius: 18px;
   margin-bottom: 20px;
   margin-left: 8px;
@@ -99,12 +96,9 @@
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding: 12px 12px 12px 12px;
   border: none;
-  border-radius: 24px;
+  border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
   transition: color, background-color 200ms;
@@ -113,6 +107,12 @@
   color: white;
   text-decoration: none;
   box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+}
+.mp,
+.mp-me,
+.mp > .fa-white,
+.mp-me > .fa-white {
+  color: #000000 !important;
 }
 .sns-email:hover,
 .sns-phone:hover,
@@ -138,98 +138,76 @@
 .mp-me:active {
   border-width: 3px;
   border: solid;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 9px 9px 9px 9px;
 }
-.sns-email {
-  background-color: #1d70f1;
+.sns-email,
+.sns-phone,
+.sns-tw,
+.sns-fb,
+.sns-li,
+.sns-dc,
+.sns-ig,
+.sns-yt {
+  background-color: #292929;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .sns-email:hover {
-  background-color: #185dcc;
+  background-color: #1d70f1;
 }
 .sns-email:active {
   border-color: #1d70f1;
   background-color: #161617;
-  color: #1d70f1;
-}
-.sns-phone {
-  background-color: #0bbc29;
 }
 .sns-phone:hover {
-  background-color: #0a9b22;
+  background-color: #0bbc29;
 }
 .sns-phone:active {
   border-color: #0bbc29;
   background-color: #161617;
-  color: #0bbc29;
-}
-.sns-fb {
-  background-color: #2076ff;
 }
 .sns-fb:hover {
-  background-color: #1355be;
+  background-color: #2076ff;
 }
 .sns-fb:active {
   border-color: #2076ff;
   background-color: #161617;
-  color: #2076ff;
-}
-.sns-li {
-  background-color: #0a66c2;
 }
 .sns-li:hover {
-  background-color: #065099;
+  background-color: #0a66c2;
 }
 .sns-li:active {
   border-color: #0a66c2;
   background-color: #161617;
-  color: #0a66c2;
-}
-.sns-ig {
-  background-color: #a808f1;
 }
 .sns-ig:hover {
-  background-color: #8705c4;
+  background-color: #a808f1;
 }
 .sns-ig:active {
   border-color: #a808f1;
   background-color: #161617;
-  color: #a808f1;
-}
-.sns-tw {
-  background-color: #1d9bf0;
 }
 .sns-tw:hover {
-  background-color: #157bbe;
+  background-color: #1d9bf0;
 }
 .sns-tw:active {
   border-color: #1d9bf0;
   background-color: #161617;
-  color: #1d9bf0;
-}
-.sns-yt {
-  background-color: #ff0000;
 }
 .sns-yt:hover {
-  background-color: #b80808;
+  background-color: #ff0000;
 }
 .sns-yt:active {
   border-color: #ff0000;
   background-color: #161617;
-  color: #ff0000;
-}
-.sns-dc {
-  background-color: #5865f2;
 }
 .sns-dc:hover {
-  background-color: #3c46b6;
+  background-color: #5865f2;
 }
 .sns-dc:active {
   border-color: #5865f2;
   background-color: #161617;
-  color: #5865f2;
 }
 .g-mp {
   font-family: Inter, Arial, sans-serif;
@@ -250,7 +228,12 @@
 .mp-me:active {
   border-color: #56ccff;
   background-color: #161617;
-  color: #56ccff;
+  color: #ffffff !important;
+}
+.mp:active > .fa-solid,
+.mp-me:active > .fa-solid {
+  color: #ffffff !important;
+  transition: all 0ms !important;
 }
 .fa-solid,
 .fa-brands,
@@ -264,7 +247,7 @@
 }
 .fa-white {
   color: #ffffff;
-  margin-right: 4px;
+  margin-right: 8px;
 }
 .smalltext {
   display: flex;
@@ -275,4 +258,27 @@
   font-weight: normal;
   font-size: 12px;
   margin-top: 50px;
+}
+
+@media all and (max-width: 700px) {
+  .profile-name {
+    font-size: 32px;
+  }
+  .profile-desc {
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 400px) {
+  .sns-email,
+  .sns-phone,
+  .sns-fb,
+  .sns-li,
+  .sns-ig,
+  .sns-tw,
+  .sns-yt,
+  .sns-dc,
+  .mp,
+  .mp-me {
+    font-size: 14px;
+  }
 }
