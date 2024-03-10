@@ -260,6 +260,11 @@
   margin-top: 50px;
 }
 
+@media all and (max-width: 730px) {
+  .kz-info {
+    margin-top: 8px;
+  }
+}
 @media all and (max-width: 700px) {
   .profile-name {
     font-size: 32px;
