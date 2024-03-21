@@ -11,6 +11,7 @@ RewriteRule ^th/me$ /html/me_th.html
 RewriteRule ^card$ /html/card.html
 RewriteRule ^link$ /html/link.html
 RewriteRule ^mymidnight$ /html/my_midnight.html
+RewriteRule ^intern$ /html/kkuicinterncoopguide.html
 RewriteRule ^love$ /html//love404.html
 RewriteRule ^404$ /html/404.html
 RewriteRule ^403$ /html/403.html
