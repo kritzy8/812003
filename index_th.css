@@ -176,6 +176,16 @@ html {
 .ig-button:hover,
 .yt-button:hover {
   box-shadow: 0px 0px 14px rgba(0, 0, 0, 1);
+  color: #d2d2d3;
+}
+.twt-button:hover > .fa-brands,
+.fb-button:hover > .fa-brands,
+.li-button:hover > .fa-brands,
+.dc-button:hover > .fa-brands,
+.ig-button:hover > .fa-brands,
+.yt-button:hover > .fa-brands {
+  color: #d2d2d3;
+  transition: all 0ms !important;
 }
 .twt-button:active,
 .fb-button:active,
