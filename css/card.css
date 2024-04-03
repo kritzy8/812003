@@ -182,10 +182,10 @@
   background-color: #161617;
 }
 .sns-ig:hover {
-  background-color: #a808f1;
+  background-color: #9a2ecb;
 }
 .sns-ig:active {
-  border-color: #a808f1;
+  border-color: #9a2ecb;
   background-color: #161617;
 }
 .sns-tw:hover {
@@ -196,10 +196,10 @@
   background-color: #161617;
 }
 .sns-yt:hover {
-  background-color: #ff0000;
+  background-color: #e11d1d;
 }
 .sns-yt:active {
-  border-color: #ff0000;
+  border-color: #e11d1d;
   background-color: #161617;
 }
 .sns-dc:hover {
