@@ -34,3 +34,9 @@
 .rc:hover {
   text-decoration: underline;
 }
+
+@media all and (max-height: 450px) {
+  .footer {
+    height: 20vh;
+  }
+}

@@ -81,3 +81,32 @@ main {
   color: #000000;
   background-color: #a71c29;
 }
+@media all and (max-height: 450px) {
+  .footer {
+    height: 20vh;
+  }
+}
+@media all and (max-height: 450px) {
+  .maing {
+    height: 70vh;
+  }
+}
+@media all and (max-height: 450px) {
+  .maing {
+    height: 65vh;
+  }
+  .g-bh {
+    height: 15vh;
+  }
+}
+@media all and (max-height: 400px) {
+  .big403 {
+    font-size: 60px;
+  }
+  .main403 {
+    font-size: 24px;
+  }
+  .sub403 {
+    font-size: 16px;
+  }
+}

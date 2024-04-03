@@ -73,3 +73,32 @@ main {
   color: #ffffff;
   background-color: #111111;
 }
+@media all and (max-height: 450px) {
+  .footer {
+    height: 20vh;
+  }
+}
+@media all and (max-height: 450px) {
+  .maing {
+    height: 70vh;
+  }
+}
+@media all and (max-height: 450px) {
+  .maing {
+    height: 65vh;
+  }
+  .g-bh {
+    height: 15vh;
+  }
+}
+@media all and (max-height: 400px) {
+  .big404 {
+    font-size: 60px;
+  }
+  .main404 {
+    font-size: 24px;
+  }
+  .sub404 {
+    font-size: 16px;
+  }
+}
