@@ -24,6 +24,7 @@ ErrorDocument 403 /html/403.html
 Redirect /ttb2023-1 https://docs.google.com/spreadsheets/d/1xpki9dWfYuxkn6DqrlugvF5noZ-ktAhb
 Redirect /ttb2023-2 https://docs.google.com/spreadsheets/u/0/d/1nBi0CWdtPG_mqwO0_YqsXEw3QR-l-ILULrkiiTic2Gc/htmlview#gid=106940637
 Redirect /hb2023 https://www.ic.kku.ac.th/wp-content/uploads/2023/08/KKUICStudentHandbook2023-updated-31-Aug-2023.pdf
+Redirect /sheout-mockup https://www.figma.com/proto/2qNM5w3WEiPIBLChSxJFnH/SHEOUT?type=design&node-id=61-2&t=NxpAqy5EUowYYMTS-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=61%3A2&mode=design
 
 Options -Indexes
 
