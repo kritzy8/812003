@@ -128,8 +128,11 @@ html {
   color: #ecebe7;
 }
 .kz-last {
-  color: #ef771e;
+  color: #80746b;
 }
+/*.kz-last {
+  color: #ef771e;
+}*/
 .sns {
   display: flex;
   justify-content: space-evenly;
