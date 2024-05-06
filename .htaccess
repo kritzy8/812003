@@ -16,7 +16,7 @@ RewriteRule ^love$ /html//love404.html
 RewriteRule ^404$ /html/404.html
 RewriteRule ^403$ /html/403.html
 
-RewriteRule ^fs2$ /fs2.html
+RewriteRule ^fs2$ /frozenserver2/html/fs2.html
 
 ErrorDocument 404 /html/404.html
 ErrorDocument 403 /html/403.html

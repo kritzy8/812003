@@ -56,10 +56,8 @@ html {
 }
 .g-bh {
   display: flex;
-  margin-top: 40px;
   justify-content: center;
-  margin-left: 8px;
-  margin-right: 8px;
+  margin: 48px 8px 0px 8px;
   column-gap: 16px;
   row-gap: 16px;
 }
