@@ -15,7 +15,9 @@ RewriteRule ^intern$ /html/kkuicinterncoopguide.html
 RewriteRule ^love$ /html//love404.html
 RewriteRule ^404$ /html/404.html
 RewriteRule ^403$ /html/403.html
+
 RewriteRule ^ttotwkatfp$ /html/ttotwkatfp.html
+RewriteRule ^ttotwkatfp/ch1$ /html/ttotwkatfp/ch1.html
 
 RewriteRule ^fs2$ /frozenserver2/html/fs2.html
 
