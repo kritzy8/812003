@@ -68,6 +68,13 @@
   border-style: none;
   margin: 0;
 }
+.ch-name {
+  font-family: Noto Sans Thai, Inter, Arial, sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+}
 .pdfobject-container {
   height: 800px;
   width: 1200px;
