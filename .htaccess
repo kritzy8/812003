@@ -17,6 +17,7 @@ RewriteRule ^404$ /html/404.html
 RewriteRule ^403$ /html/403.html
 
 RewriteRule ^ttotwkatfp$ /html/ttotwkatfp.html
+RewriteRule ^ttotwkatfp/ch0$ /html/ttotwkatfp/ch0.html
 RewriteRule ^ttotwkatfp/ch1$ /html/ttotwkatfp/ch1.html
 RewriteRule ^ttotwkatfp/ch2$ /html/ttotwkatfp/ch2.html
 

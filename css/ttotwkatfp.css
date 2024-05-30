@@ -93,7 +93,8 @@ a {
 .chapter:hover > .ch-head > .ch-no {
   color: #000000;
 }
-.chapter:hover > .ch-info {
+.ch-closed:hover > .ch-words,
+.ch-closed:hover > .ch-time {
   color: #1b1b1b;
 }
 .chapter.ch-closed {
@@ -108,7 +109,8 @@ a {
 .ch-closed > .ch-text {
   color: #888888;
 }
-.ch-closed > .ch-info {
+.ch-closed:hover > .ch-words,
+.ch-closed:hover > .ch-time {
   color: #5a5a5a;
 }
 .ch-closed:hover {
@@ -118,7 +120,8 @@ a {
 .ch-closed:hover > .ch-no {
   color: #56ccff;
 }
-.ch-closed:hover > .ch-info {
+.ch-closed:hover > .ch-words,
+.ch-closed:hover > .ch-time {
   color: #888888;
 }
 .ch-head {
