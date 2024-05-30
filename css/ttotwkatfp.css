@@ -155,7 +155,12 @@ a {
   margin-bottom: 16px;
 }
 .ch-info {
-  display: block;
+  display: flex;
+  justify-content: space-between;
+}
+.ch-time,
+.ch-words {
+  display: inline-block;
   font-family: Noto Sans Thai, Arial, sans-serif;
   color: #888888;
   font-weight: 400;
