@@ -66,6 +66,9 @@ a {
   margin: 0px 8px 20px 8px;
   width: 800px;
 }
+.indent {
+  text-indent: 1.27cm;
+}
 .blue-hr {
   border-radius: 5px;
   height: 3px;
