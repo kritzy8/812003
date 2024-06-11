@@ -263,23 +263,72 @@ html {
 .down-arrow {
   font-size: 22px;
 }
-.kz-info {
+.center-card {
   display: flex;
   justify-content: space-evenly;
 }
-.g-kz-info {
+.card {
   display: inline-block;
   background-color: #292929;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  padding: 18px 18px 18px 18px;
+  padding: 0 0 18px;
   border-radius: 14px;
-  margin-bottom: 20px;
-  margin-left: 8px;
-  margin-right: 8px;
-  width: 600px;
+  margin: 0px 8px 20px 8px;
+  width: 636px;
 }
-.g-kz-info-end {
+.no-head {
+  padding-top: 18px;
+}
+.card-head {
+  padding: 18px 0 18px;
+  margin-bottom: 10px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  background-color: #424242;
+}
+/*.c-h-contact {
+  background: #b355e0;
+  background: linear-gradient(90deg, #b355e0 0%, #dc7cf3 100%);
+}
+.c-h-personaldata {
+  background: #1a74f3;
+  background: linear-gradient(90deg, #1a74f3 0%, #2c8af5 100%);
+}
+.c-h-edu {
+  background: #44acf1;
+  background: linear-gradient(90deg, #44acf1 0%, #56ccff 100%);
+}
+.c-h-lang {
+  background: #46c55b;
+  background: linear-gradient(90deg, #46c55b 0%, #72cf6a 100%);
+}
+.c-h-techskill {
+  background: #e7ba04;
+  background: linear-gradient(90deg, #e7ba04 0%, #f0ba0a 100%);
+}
+.c-h-exp {
+  background: #f9681e;
+  background: linear-gradient(90deg, #f9681e 0%, #f86e38 100%);
+}
+.c-h-pw {
+  background: #fa1f39;
+  background: linear-gradient(90deg, #fa1f39 0%, #fd2e5b 100%);
+}
+.c-h-contribution {
+  background: #ff2775;
+  background: linear-gradient(90deg, #ff2775 0%, #ff378a 100%);
+}
+.c-h-project {
+  background: #7647e0;
+  background: linear-gradient(90deg, #7647e0 0%, #8954df 100%);
+}*/
+.card-end {
   margin-bottom: 0px;
+}
+.card-head-t {
+  margin: 0 0 0 18px;
+  color: #fbfbfb;
 }
 .profile-head-grid {
   display: flex;
@@ -293,6 +342,7 @@ html {
   object-fit: cover;
   object-position: center;
   transition: all 200ms;
+  margin-left: 18px;
 }
 .profile-img:hover {
   transform: scale(1.05);
@@ -322,7 +372,8 @@ html {
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
-  margin-bottom: 10px;
+  margin: 0 18px 0px 18px;
+  padding: 6px 0 6px;
 }
 .kz-info-data-th {
   font-family: Noto Sans Thai, Arial, sans-serif;
@@ -330,6 +381,12 @@ html {
   font-size: 16px;
   color: #f5f5f7;
   text-decoration: none;
+}
+.divide-hr {
+  height: 1px;
+  background-color: #424242;
+  border-style: none;
+  margin: 6px 0 6px;
 }
 .data-link:link,
 .data-link:visited {
@@ -352,6 +409,8 @@ html {
   font-size: 16px;
   line-height: 24px;
   color: #f5f5f7;
+  margin: 0 18px 0 18px;
+  padding-top: 6px;
 }
 .tech-skills-list {
   display: flex;
@@ -360,6 +419,8 @@ html {
   align-content: space-between;
   column-gap: 30px;
   row-gap: 6px;
+  margin: 0px 18px 0 18px;
+  padding-top: 8px;
 }
 .technical-skills-list {
   display: flex;
