@@ -396,13 +396,10 @@ html {
 .photo-container.left {
   justify-content: left;
 }
-.photo-placement {
-  display: flex;
-  /*transition: all 300ms;*/
-}
 .photo-small,
 .photo-medium,
-.photo-large {
+.photo-large,
+.photo-xlarge {
   object-fit: cover;
   object-position: center;
   border-radius: 6px;
@@ -434,16 +431,8 @@ html {
   max-width: 900px;
 }
 .photo-large.sq {
-  max-height: 500px;
-  max-width: 500px;
-}
-.photo-xlarge {
-  object-fit: cover;
-  object-position: center;
-  border-radius: 6px;
-  height: 100%;
-  width: 100%;
-  max-width: 900px;
+  max-height: 450px;
+  max-width: 450px;
 }
 @media screen and (max-width: 550px) {
   .photo-container {
