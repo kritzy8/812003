@@ -258,31 +258,49 @@ html {
 .jump:hover > .fa-wtb {
   color: #000000;
 }
-.kz-info {
+.center-card {
   display: flex;
   justify-content: space-evenly;
 }
-.g-kz-info {
+.card {
   display: inline-block;
   background-color: #292929;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  padding: 18px 18px 18px 18px;
+  padding: 0 0 18px;
   border-radius: 14px;
   margin: 0px 8px 20px 8px;
-  width: 900px;
+  width: 936px;
 }
-.g-kz-info-nm {
+.no-head {
+  padding-top: 18px;
+}
+.card-head {
+  padding: 18px 0 18px;
+  margin-bottom: 10px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  background-color: #424242;
+}
+.card-head-t {
+  font-family: Inter, Arial, sans-serif;
+  margin: 0 0 0 18px;
+  color: #fbfbfb;
+  font-weight: 700;
+  font-size: 30px;
+}
+.card-nm {
   margin-bottom: 0px;
 }
-.g-kz-info-no-bg,
-.g-kz-info-no-bg-nm {
+.card-no-bg,
+.card-no-bg-nm {
   display: inline-block;
   padding: 18px 18px 18px 18px;
   border-radius: 18px;
   margin: 0px 8px 0px 8px;
-  width: 900px;
+  width: 936px;
 }
-.g-kz-info-no-bg {
+.card-no-bg {
   margin-bottom: 20px;
 }
 .profile-head-grid {
@@ -297,6 +315,7 @@ html {
   object-fit: cover;
   object-position: center;
   transition: all 200ms;
+  margin-left: 18px;
 }
 .profile-img:hover {
   transform: scale(1.05);
@@ -305,6 +324,7 @@ html {
 .g-profile-name {
   display: flex;
   flex-direction: column;
+  margin-right: 18px;
 }
 .profile-name,
 .kz-info-head,
@@ -347,6 +367,8 @@ html {
   text-decoration: none;
   margin-bottom: 8px;
   line-height: 24px;
+  margin: 0 18px 0 18px;
+  padding: 6px 0 6px;
 }
 .xm {
   margin-bottom: 12px;
@@ -361,20 +383,20 @@ html {
   text-decoration: none;
 }
 .info-data-sh {
+  display: inline-block;
   font-family: Inter, Arial, sans-serif;
   font-weight: 800;
   font-size: 22px;
   color: #56ccff;
   text-decoration: none;
-  margin-bottom: 10px;
+  margin: 12px 18px 0 18px;
 }
 .blue-hr {
   border-radius: 5px;
   height: 3px;
   background-color: #56ccff;
   border-style: none;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 26px 18px 12px 18px;
 }
 .tech-skills-list {
   display: flex;
@@ -383,23 +405,38 @@ html {
   align-content: space-between;
   column-gap: 30px;
   row-gap: 6px;
+  margin: 14px 18px 0 18px;
 }
 
 /*the new photo responsive method*/
 
+.media-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  margin: 0 18px 5px 18px;
+}
 .photo-container {
   display: flex;
   justify-content: center;
   column-gap: 5px;
-  margin-bottom: 5px;
+  margin: 0 18px 5px 18px;
 }
 .photo-container.left {
   justify-content: left;
 }
+.photo-placement {
+  display: flex;
+  justify-content: center;
+}
 .photo-small,
+.photo-small-sq,
 .photo-medium,
+.photo-medium-sq,
 .photo-large,
-.photo-xlarge {
+.photo-large-sq,
+.photo-xlarge,
+.resume {
   object-fit: cover;
   object-position: center;
   border-radius: 6px;
@@ -410,7 +447,7 @@ html {
   max-height: 150px;
   max-width: 300px;
 }
-.photo-small.sq {
+.photo-small-sq {
   max-height: 150px;
   max-width: 150px;
 }
@@ -422,7 +459,7 @@ html {
   max-height: 450px;
   max-width: 225px;
 }
-.photo-medium.sq {
+.photo-medium-sq {
   max-height: 300px;
   max-width: 300px;
 }
@@ -430,7 +467,7 @@ html {
   max-height: 450px;
   max-width: 900px;
 }
-.photo-large.sq {
+.photo-large-sq {
   max-height: 450px;
   max-width: 450px;
 }
@@ -535,6 +572,9 @@ html {
   .kz-info-head {
     font-size: 32px;
   }
+  .card-head-t {
+    font-size: 26px;
+  }
   .info-data-sh {
     font-size: 20px;
   }
@@ -555,13 +595,13 @@ html {
   .kz-info-head {
     font-size: 28px;
   }
+  .card-head-t {
+    font-size: 22px;
+  }
 }
 
 /*end of text responsive*/
 
-.yt-vid {
-  margin-bottom: 20px;
-}
 .yt-vid,
 .yt-vid-nm {
   position: relative;
@@ -569,7 +609,6 @@ html {
   padding-bottom: 56.25%;
   height: 0;
   border-radius: 10px;
-  margin-bottom: 2px;
 }
 .yt-vid iframe,
 .yt-vid-nm iframe {
@@ -600,6 +639,8 @@ html {
   font-weight: 400;
   font-size: 16px;
   color: #f5f5f7;
+  margin: 0 18px 0 18px;
+  padding: 6px 0 0;
 }
 .technical-skills-list {
   display: flex;
@@ -671,8 +712,7 @@ html {
   margin-right: 8px;
 }
 .resume {
-  width: 100%;
-  max-width: 600px;
-  height: 1fr;
   border-radius: 10px;
+  max-width: 600px;
+  max-height: 848.7px;
 }
