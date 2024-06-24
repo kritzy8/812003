@@ -580,6 +580,27 @@ html {
   }
 }
 
+@media all and (max-width: 831px) {
+  .tech-skills-list {
+    margin-right: 140px;
+  }
+}
+@media all and (max-width: 750px) {
+  .tech-skills-list {
+    margin-right: 100px;
+  }
+}
+@media all and (max-width: 670px) {
+  .tech-skills-list {
+    margin-right: 60px;
+  }
+}
+@media all and (max-width: 603px) {
+  .tech-skills-list {
+    margin-right: 18px;
+  }
+}
+
 /*end of text responsive*/
 
 .yt-vid,
