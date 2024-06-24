@@ -60,6 +60,9 @@ a {
 .nopadding {
   padding: 0 !important;
 }
+.nobtmmargin {
+  margin-bottom: 0 !important;
+}
 .invis-card {
   display: inline-block;
   border-radius: 14px;
