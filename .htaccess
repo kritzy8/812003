@@ -36,6 +36,8 @@ RewriteRule ^ttotwkatfp/ch2/$ /html/ttotwkatfp/ch2.html
 RewriteRule ^ttotwkatfp/ch2$ /html/ttotwkatfp/ch2.html
 RewriteRule ^ttotwkatfp/ch3/$ /html/ttotwkatfp/ch3.html
 RewriteRule ^ttotwkatfp/ch3$ /html/ttotwkatfp/ch3.html
+RewriteRule ^ttotwkatfp/ch4/$ /html/ttotwkatfp/ch4.html
+RewriteRule ^ttotwkatfp/ch4$ /html/ttotwkatfp/ch4.html
 
 RewriteRule ^fs2/$ /frozenserver2/html/fs2.html
 RewriteRule ^fs2$ /frozenserver2/html/fs2.html
