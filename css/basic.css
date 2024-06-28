@@ -15,24 +15,28 @@ html {
 }
 .ttt {
   position: fixed;
-  background-color: #292929;
+  background-color: rgba(41, 41, 41, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  color: #56ccff;
   font-size: 30px;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 14px;
-  padding-right: 14px;
+  padding: 10px 14px 10px 14px;
   border-radius: 80px;
   border-style: none;
   bottom: 30px;
   right: 30px;
-  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
-  transition: all 200ms;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
+  transition: all 300ms !important;
+  z-index: 1;
 }
 .ttt:hover {
-  background-color: #1f1f1f;
-  color: #34a6d6;
+  background-color: rgba(255, 255, 255, 0.125);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+  text-shadow: 0 0 2px #000000;
+}
+.ttt:hover.fa-solid.fa-arrow-up {
+  color: #f5f5f7 !important;
 }
 .lang-th {
   font-family: Inter, Arial, sans-serif;
@@ -40,23 +44,49 @@ html {
   font-size: 18.1px;
   color: #56ccff;
   position: fixed;
-  background-color: #292929;
+  background-color: rgba(41, 41, 41, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   text-align: center;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 13px;
-  padding-right: 13px;
+  padding: 14px 13px 14px 13px;
   border-radius: 100px;
   border-style: none;
   bottom: 30px;
   left: 30px;
-  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
   transition: 200ms;
+  z-index: 1;
 }
 .lang-th:hover {
-  background-color: #1f1f1f;
-  color: #34a6d6;
+  background-color: rgba(255, 255, 255, 0.125);
+  color: #f5f5f7;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+  text-shadow: 0 0 2px #000000;
+}
+.lang-en {
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 18.1px;
+  color: #56ccff;
+  position: fixed;
+  background-color: rgba(41, 41, 41, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  text-align: center;
+  padding: 14px 14px 14px 14px;
+  border-radius: 100px;
+  border-style: none;
+  bottom: 30px;
+  left: 30px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
+  transition: 200ms;
+  z-index: 1;
+}
+.lang-en:hover {
+  background-color: rgba(255, 255, 255, 0.125);
+  color: #f5f5f7;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+  text-shadow: 0 0 2px #000000;
 }
 .fa-solid,
 .fa-brands,
@@ -65,10 +95,4 @@ html {
 .fa-solid:visited,
 .fa-brands:visited {
   text-decoration: none;
-  color: #56ccff;
-  transition: color 200ms;
-}
-.fa-solid:hover,
-.fa-brands:hover {
-  color: #34a6d6;
 }
