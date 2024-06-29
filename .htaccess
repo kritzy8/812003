@@ -26,18 +26,18 @@ RewriteRule ^404$ /html/404.html
 RewriteRule ^403/$ /html/403.html
 RewriteRule ^403$ /html/403.html
 
-RewriteRule ^ttotwkatfp/$ /html/ttotwkatfp.html
-RewriteRule ^ttotwkatfp$ /html/ttotwkatfp.html
-RewriteRule ^ttotwkatfp/ch0/$ /html/ttotwkatfp/ch0.html
-RewriteRule ^ttotwkatfp/ch0$ /html/ttotwkatfp/ch0.html
-RewriteRule ^ttotwkatfp/ch1/$ /html/ttotwkatfp/ch1.html
-RewriteRule ^ttotwkatfp/ch1$ /html/ttotwkatfp/ch1.html
-RewriteRule ^ttotwkatfp/ch2/$ /html/ttotwkatfp/ch2.html
-RewriteRule ^ttotwkatfp/ch2$ /html/ttotwkatfp/ch2.html
-RewriteRule ^ttotwkatfp/ch3/$ /html/ttotwkatfp/ch3.html
-RewriteRule ^ttotwkatfp/ch3$ /html/ttotwkatfp/ch3.html
-RewriteRule ^ttotwkatfp/ch4/$ /html/ttotwkatfp/ch4.html
-RewriteRule ^ttotwkatfp/ch4$ /html/ttotwkatfp/ch4.html
+RewriteRule ^ttotwkatfp/$ /ttotwkatfp/ttotwkatfp.html
+RewriteRule ^ttotwkatfp$ /ttotwkatfp/ttotwkatfp.html
+RewriteRule ^ttotwkatfp/ch0/$ /ttotwkatfp/ch0.html
+RewriteRule ^ttotwkatfp/ch0$ /ttotwkatfp/ch0.html
+RewriteRule ^ttotwkatfp/ch1/$ /ttotwkatfp/ch1.html
+RewriteRule ^ttotwkatfp/ch1$ /ttotwkatfp/ch1.html
+RewriteRule ^ttotwkatfp/ch2/$ /ttotwkatfp/ch2.html
+RewriteRule ^ttotwkatfp/ch2$ /ttotwkatfp/ch2.html
+RewriteRule ^ttotwkatfp/ch3/$ /ttotwkatfp/ch3.html
+RewriteRule ^ttotwkatfp/ch3$ /ttotwkatfp/ch3.html
+RewriteRule ^ttotwkatfp/ch4/$ /ttotwkatfp/ch4.html
+RewriteRule ^ttotwkatfp/ch4$ /ttotwkatfp/ch4.html
 
 RewriteRule ^fs2/$ /frozenserver2/html/fs2.html
 RewriteRule ^fs2$ /frozenserver2/html/fs2.html
