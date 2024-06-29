@@ -2,8 +2,8 @@ RewriteEngine On
 
 RewriteCond %{REQUEST_FILENAME} !-f
 
-RewriteRule ^/$ pages/index.html
-RewriteRule ^home/$ pages/index.html
+RewriteRule ^/$ /index.html
+RewriteRule ^home/$ /index.html
 RewriteRule ^home$ /index.html
 RewriteRule ^me/$ /html/me.html
 RewriteRule ^me$ /html/me.html
