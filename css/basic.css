@@ -96,3 +96,29 @@ html {
 .fa-brands:visited {
   text-decoration: none;
 }
+@media all and (max-width: 800px) {
+  .ttt {
+    bottom: 25px;
+    right: 25px;
+  }
+}
+@media all and (max-width: 600px) {
+  .ttt {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+@media all and (max-width: 800px) {
+  .lang-en,
+  .lang-th {
+    bottom: 25px;
+    left: 25px;
+  }
+}
+@media all and (max-width: 600px) {
+  .lang-en,
+  .lang-th {
+    bottom: 20px;
+    left: 20px;
+  }
+}

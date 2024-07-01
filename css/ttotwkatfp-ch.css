@@ -130,3 +130,15 @@
   border: 1px solid #373737;
   color: #f5f5f7;
 }
+@media all and (max-width: 800px) {
+  .g-control {
+    bottom: 25px;
+    left: 25px;
+  }
+}
+@media all and (max-width: 600px) {
+  .g-control {
+    bottom: 20px;
+    left: 20px;
+  }
+}
