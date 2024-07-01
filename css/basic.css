@@ -26,13 +26,13 @@ html {
   border-style: none;
   bottom: 30px;
   right: 30px;
-  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.7);
   transition: all 300ms !important;
   z-index: 1;
 }
 .ttt:hover {
   background-color: rgba(255, 255, 255, 0.125);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
   text-shadow: 0 0 2px #000000;
 }
 .ttt:hover.fa-solid.fa-arrow-up {
@@ -53,14 +53,14 @@ html {
   border-style: none;
   bottom: 30px;
   left: 30px;
-  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.7);
   transition: 200ms;
   z-index: 1;
 }
 .lang-th:hover {
   background-color: rgba(255, 255, 255, 0.125);
   color: #f5f5f7;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
   text-shadow: 0 0 2px #000000;
 }
 .lang-en {
@@ -78,14 +78,14 @@ html {
   border-style: none;
   bottom: 30px;
   left: 30px;
-  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.7);
   transition: 200ms;
   z-index: 1;
 }
 .lang-en:hover {
   background-color: rgba(255, 255, 255, 0.125);
   color: #f5f5f7;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
   text-shadow: 0 0 2px #000000;
 }
 .fa-solid,
