@@ -325,7 +325,7 @@ html {
   object-fit: cover;
   object-position: center;
   transition: all 200ms;
-  margin-left: 18px;
+  margin: 0 18px 0 18px;
 }
 .profile-img:hover {
   transform: scale(1.05);
@@ -334,12 +334,12 @@ html {
 .g-profile-name {
   display: flex;
   flex-direction: column;
+  margin-right: 18px;
 }
 .profile-name {
   font-weight: bold;
   font-size: 37px;
   margin-bottom: 2px;
-  margin-left: 20px;
 }
 .profile-desc {
   display: inline-block;
@@ -347,7 +347,6 @@ html {
   font-weight: normal;
   font-size: 16px;
   color: #86868b;
-  margin-left: 20px;
 }
 .kz-info-data {
   display: block;
