@@ -360,12 +360,14 @@ html {
   font-size: 22px;
   line-height: 1.4;
   color: #56ccff;
-  text-decoration: none;
   margin: 18px 18px 0 18px;
+}
+.info-data-sh > a {
+  text-decoration: none;
 }
 .info-data-sh > a > i {
   font-size: 20px;
-  margin-left: 8px;
+  margin-left: 4px;
 }
 .blue-hr {
   border-radius: 5px;
