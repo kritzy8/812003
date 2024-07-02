@@ -347,8 +347,10 @@ html {
   font-weight: 800;
   font-size: 22px;
   color: #56ccff;
-  text-decoration: none;
   margin: 12px 18px 0 18px;
+}
+.info-data-sh > a {
+  text-decoration: none;
 }
 .blue-hr {
   border-radius: 5px;
