@@ -107,6 +107,16 @@
       }
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#footer").load("footer.html");
+      });
+    </script>
   </head>
   <body style="margin: 0px; background-color: #111111">
     <div class="g-header">
@@ -344,25 +354,6 @@
       </div>
     </div>
 
-    <footer class="footer">
-      <div>
-        <span class="footer-text"
-          >Copyright © 2023-2024 kritzy_8, under the license to Triangle. All
-          rights reserved.</span
-        >
-        <br />
-        <span class="footer-rc"
-          >Resources:
-          <a class="rc" href="https://fontawesome.com/" target="_blank"
-            >Font Awesome</a
-          >,
-          <a class="rc" href="https://fonts.google.com/" target="_blank"
-            >Google Fonts</a
-          >, and
-          <a class="rc" href="https://flaticon.com/" target="_blank">Flaticon</a
-          >.</span
-        >
-      </div>
-    </footer>
+    <footer id="footer"></footer>
   </body>
 </html>
