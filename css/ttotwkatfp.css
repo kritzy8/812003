@@ -16,6 +16,20 @@ a {
   text-align: center;
   margin: 0 8px 0 8px;
 }
+.g-ttotwkatfp-img {
+  display: flex;
+  justify-content: center;
+  width: 480px;
+  margin-bottom: 20px;
+}
+@media all and (max-width: 480px) {
+  .g-ttotwkatfp-img {
+    width: auto !important;
+  }
+}
+.ttotwkatfp-img {
+  width: 100%;
+}
 .author {
   font-weight: 600;
 }
