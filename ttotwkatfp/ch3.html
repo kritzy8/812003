@@ -116,6 +116,16 @@
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/mainh.css" />
     <link rel="stylesheet" href="../css/basic.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#footer").load("/html/footer-ttotwkatfp.html");
+      });
+    </script>
   </head>
   <body style="margin: 0px; background-color: #111111">
     <div class="g-control">
@@ -852,35 +862,6 @@
       </div>
     </section>
     <div style="margin-top: 100px"></div>
-    <footer class="footer">
-      <div class="g-f">
-        <div>
-          <div class="g-ttotwkatfp-img">
-            <img
-              src="ttotwkatfp.webp"
-              alt="the tale of the wind knight and the fire prince"
-              class="ttotwkatfp-img"
-            />
-          </div>
-          <span class="footer-text"
-            >Copyright © 2023-2024 kritzy_8, under the license to Triangle. All
-            rights reserved.</span
-          >
-          <br />
-          <span class="footer-rc"
-            >Resources:
-            <a class="rc" href="https://fontawesome.com/" target="_blank"
-              >Font Awesome</a
-            >,
-            <a class="rc" href="https://fonts.google.com/" target="_blank"
-              >Google Fonts</a
-            >, and
-            <a class="rc" href="https://flaticon.com/" target="_blank"
-              >Flaticon</a
-            >.</span
-          >
-        </div>
-      </div>
-    </footer>
+    <footer id="footer"></footer>
   </body>
 </html>
