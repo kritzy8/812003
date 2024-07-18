@@ -42,6 +42,20 @@
 .c-unclickable:hover > i {
   color: #5a5a5a;
 }
+.g-ttotwkatfp-img {
+  display: flex;
+  justify-content: center;
+  width: 480px;
+  margin-bottom: 20px;
+}
+@media all and (max-width: 480px) {
+  .g-ttotwkatfp-img {
+    width: auto !important;
+  }
+}
+.ttotwkatfp-img {
+  width: 100%;
+}
 .author {
   display: block;
   font-family: Inter, Arial, sans-serif;
