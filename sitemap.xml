@@ -69,9 +69,21 @@
 </url>
 <url>
     <loc>https://812003.xyz/ttotwkatfp/ch5</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2024-07-19</lastmod>
+</url>
+<url>
+    <loc>https://812003.xyz/ttotwkatfp/ch6</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2024-07-23</lastmod>
+</url>
+<url>
+    <loc>https://812003.xyz/ttotwkatfp/ch7</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-    <lastmod>2024-07-09</lastmod>
+    <lastmod>2024-07-23</lastmod>
 </url>
 <url>
     <loc>https://812003.xyz/mymidnight</loc>
