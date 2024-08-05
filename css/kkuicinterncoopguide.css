@@ -94,6 +94,7 @@ html {
   font-family: Noto Sans Thai, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.75;
   color: #f5f5f7;
   margin-bottom: 10px;
 }
@@ -151,13 +152,20 @@ html {
   font-weight: 700;
   font-size: 20px;
   color: #f5f5f7;
+  margin-bottom: 10px;
 }
 .faq-t {
   font-family: Noto Sans Thai, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.75;
   color: #f5f5f7;
-  margin-bottom: 10px;
+}
+.faq-hr {
+  height: 1px;
+  background-color: #373737;
+  border-style: none;
+  margin: 16px 0 16px;
 }
 .fa-solid,
 .fa-brands,
