@@ -1,0 +1,93 @@
+.center-card {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: inline-block;
+  background-color: #292929;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 18px 18px 18px 18px;
+  border-radius: 14px;
+  margin: 0px 8px 20px 8px;
+  width: 800px;
+}
+.invis-card {
+  display: inline-block;
+  border-radius: 14px;
+  margin: 0px 8px 20px 8px;
+  width: 800px;
+}
+.nopadding {
+  padding: 0 !important;
+}
+.nobtmmargin {
+  margin-bottom: 0 !important;
+}
+.mainhr {
+  height: 1px;
+  background-color: #373737;
+  border-style: none;
+  margin: 0;
+}
+.item {
+  margin: 16px 16px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 16px;
+}
+.course-info {
+}
+.course-status {
+  align-content: center;
+}
+.stt-open,
+.stt-close {
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #111111;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 6px 22px;
+  border-radius: 20px;
+}
+.stt-open {
+  background-color: #0dcb67;
+}
+.stt-close {
+  background-color: #d22a29;
+}
+.multisec {
+  display: flex;
+  flex-direction: column;
+}
+.type-minor,
+.type-free {
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #f5f5f7;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 3px 16px 1px 16px;
+  border-radius: 20px;
+}
+.type-minor {
+  background-color: #7f30bd;
+}
+.type-free {
+  background-color: #2456a1;
+}
+.title {
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #56ccff;
+  font-weight: 600;
+  font-size: 16px;
+}
+.g-info {
+  display: inline-block;
+  margin-top: 6px;
+}
+.info {
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #f5f5f7;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 8px;
+}

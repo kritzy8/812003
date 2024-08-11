@@ -21,6 +21,8 @@ RewriteRule ^mymidnight/$ /html/my_midnight.html
 RewriteRule ^mymidnight$ /html/my_midnight.html
 RewriteRule ^intern/$ /html/kkuicinterncoopguide.html
 RewriteRule ^intern$ /html/kkuicinterncoopguide.html
+RewriteRule ^kkuiccourse/$ /html/kkuiccourse.html
+RewriteRule ^kkuiccourse$ /html/kkuiccourse.html
 RewriteRule ^love/$ /html//love404.html
 RewriteRule ^love$ /html//love404.html
 RewriteRule ^404/$ /html/404.html
