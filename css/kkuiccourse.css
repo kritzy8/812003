@@ -72,6 +72,7 @@ h3 {
 }
 .stt-unk {
   background-color: #888888;
+  white-space: nowrap;
 }
 .multisec {
   display: flex;
@@ -85,12 +86,16 @@ h3 {
   font-size: 14px;
   padding: 5px 16px;
   border-radius: 20px;
+  margin-right: 8px;
 }
 .type-minor {
   background-color: #7f30bd;
 }
 .type-free {
   background-color: #2456a1;
+}
+.course-name {
+  display: flex;
 }
 .title {
   font-family: Inter, Arial, sans-serif;
