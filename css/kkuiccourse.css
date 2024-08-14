@@ -1,3 +1,17 @@
+h3,
+h2 {
+  margin-right: 18px !important;
+}
+h3 {
+  padding: 18px 0 18px 18px;
+  margin: 0 0 !important;
+  font-family: Noto Sans Thai;
+  font-weight: 600;
+  background-color: #124680;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
 .center-card {
   display: flex;
   justify-content: center;
@@ -30,7 +44,7 @@
   margin: 0;
 }
 .item {
-  margin: 16px 16px;
+  margin: 18px 18px;
   display: flex;
   justify-content: space-between;
   column-gap: 16px;
@@ -41,12 +55,13 @@
   align-content: center;
 }
 .stt-open,
-.stt-close {
-  font-family: Noto Sans Thai, Arial, sans-serif;
+.stt-close,
+.stt-unk {
+  font-family: Inter, Arial, sans-serif;
   color: #111111;
   font-weight: 600;
-  font-size: 16px;
-  padding: 6px 22px;
+  font-size: 14px;
+  padding: 8px 22px;
   border-radius: 20px;
 }
 .stt-open {
@@ -55,17 +70,20 @@
 .stt-close {
   background-color: #d22a29;
 }
+.stt-unk {
+  background-color: #888888;
+}
 .multisec {
   display: flex;
   flex-direction: column;
 }
 .type-minor,
 .type-free {
-  font-family: Noto Sans Thai, Arial, sans-serif;
+  font-family: Inter, Arial, sans-serif;
   color: #f5f5f7;
   font-weight: 600;
   font-size: 14px;
-  padding: 3px 16px 1px 16px;
+  padding: 5px 16px;
   border-radius: 20px;
 }
 .type-minor {
@@ -75,19 +93,27 @@
   background-color: #2456a1;
 }
 .title {
-  font-family: Noto Sans Thai, Arial, sans-serif;
+  font-family: Inter, Arial, sans-serif;
   color: #56ccff;
   font-weight: 600;
   font-size: 16px;
 }
 .g-info {
   display: inline-block;
-  margin-top: 6px;
+  margin-top: 8px;
 }
 .info {
-  font-family: Noto Sans Thai, Arial, sans-serif;
+  font-family: Inter, Arial, sans-serif;
   color: #f5f5f7;
   font-weight: 500;
   font-size: 12px;
   margin-right: 8px;
+}
+.end {
+  margin: 18px 0 18px 18px;
+  font-family: Noto Sans Thai;
+  font-weight: 400;
+  text-align: center;
+  background-color: transparent;
+  box-shadow: none;
 }
