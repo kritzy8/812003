@@ -1,6 +1,6 @@
 body {
   background-color: var(--bg-color);
-  transition: all 600ms;
+  transition: all 300ms;
 }
 :root {
   --bg-color: #111111;
@@ -17,6 +17,7 @@ body {
   --ttt-hover-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
   --ttt-hover-bg-color: rgba(255, 255, 255, 0.125);
   --ttt-sw-icon-color: #f5f5f7;
+  --icon-rotation: 0deg;
 }
 .light-theme {
   --bg-color: #f4f4f4;
@@ -33,24 +34,36 @@ body {
   --ttt-hover-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
   --ttt-hover-bg-color: rgba(0, 0, 0, 0.1);
   --ttt-sw-icon-color: #000000;
+  --swmode-shadow: 0px -2px 5px rgba(0, 0, 0, 0.25);
+  --swmode-hover-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
+  --control-unclickable-color: #d8d8d8;
+  --icon-rotation: 180deg;
+}
+.swmode.fa-solid {
+  rotate: var(--icon-rotation);
 }
 h2,
 h3 {
   color: var(--txt-color) !important;
 }
-.ttt,
-.swmode {
+.ttt {
   background-color: var(--ttt-bg-color) !important;
   box-shadow: var(--ttt-shadow) !important;
 }
-.ttt:hover,
-.swmode:hover {
+.ttt:hover {
   background-color: var(--ttt-hover-bg-color) !important;
   box-shadow: var(--ttt-hover-shadow) !important;
 }
-.ttt.fa-solid:hover,
-.swmode.fa-solid:hover {
-  color: var(--ttt-sw-icon-color) !important;
+.swmode {
+  background-color: var(--ttt-bg-color) !important;
+  box-shadow: var(--swmode-shadow) !important;
+}
+.swmode:hover {
+  background-color: var(--ttt-hover-bg-color) !important;
+  box-shadow: var(--swmode-hover-shadow) !important;
+}
+.swmode.fa-solid {
+  rotate: var(--icon-rotation);
 }
 a {
   text-decoration: none;
@@ -250,21 +263,17 @@ a {
   text-align: left;
 }
 .kz,
-.kz:visited {
-  color: var(--txt-color);
-  transition: all 300ms;
-  text-decoration: none;
-}
-.kz:hover {
-  color: #56ccff;
-}
+.kz:visited,
 .ny,
 .ny:visited,
 .mk,
 .mk:visited {
   color: var(--txt-color);
-  transition: all 300ms;
   text-decoration: none;
+  transition: all 300ms;
+}
+.kz:hover {
+  color: #56ccff;
 }
 .ny:hover,
 .mk:hover {
