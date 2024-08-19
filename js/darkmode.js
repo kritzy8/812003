@@ -7,8 +7,6 @@ switchtheme.onclick = function () {
 let lightMode = localStorage.getItem('lightMode');
 const lightModeToggle = document.querySelector('#switchtheme');
 
-console.log(lightMode);
-
 const enableLightMode = () => {
     document.body.classList.add('light-theme');
     localStorage.setItem('lightMode','enable');
@@ -27,9 +25,7 @@ lightModeToggle.addEventListener('click', () => {
     lightMode = localStorage.getItem('lightMode');
     if (lightMode !== 'enable') {
         enableLightMode();
-        console.log(lightMode);
     } else {
         disableLightMode();
-        console.log(lightMode);
     }
 });
