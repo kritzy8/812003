@@ -129,7 +129,7 @@
       });
     </script>
   </head>
-  <body style="margin: 0px; background-color: #111111">
+  <body style="margin: 0px">
     <div class="g-control">
       <a href="https://812003.xyz/ttotwkatfp#chapter-list" class="control c-l"
         ><i class="fa-solid fa-list-ul"></i
@@ -142,6 +142,9 @@
       ></a>
     </div>
     <a href="#"><i class="ttt fa-solid fa-arrow-up"></i></a>
+    <a
+      ><i class="swmode fa-solid fa-circle-half-stroke" id="switchtheme"></i
+    ></a>
     <div style="margin-top: 100px"></div>
     <div style="margin-top: 100px"></div>
     <section>
@@ -909,5 +912,12 @@
     </div>
     <div style="margin-top: 100px"></div>
     <footer id="footer"></footer>
+    <script>
+      var switchtheme = document.getElementById("switchtheme");
+
+      switchtheme.onclick = function () {
+        document.body.classList.toggle("light-theme");
+      };
+    </script>
   </body>
 </html>
