@@ -125,10 +125,18 @@ html {
     bottom: 25px;
     right: 25px;
   }
+  .swmode {
+    bottom: 95px;
+    right: 25px;
+  }
 }
 @media all and (max-width: 600px) {
   .ttt {
     bottom: 20px;
+    right: 20px;
+  }
+  .swmode {
+    bottom: 85px;
     right: 20px;
   }
 }
