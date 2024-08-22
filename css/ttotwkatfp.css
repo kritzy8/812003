@@ -62,8 +62,9 @@ h3 {
   background-color: var(--ttt-hover-bg-color) !important;
   box-shadow: var(--swmode-hover-shadow) !important;
 }
-.swmode.fa-solid {
-  rotate: var(--icon-rotation);
+.swmode:hover.fa-solid,
+.ttt:hover.fa-solid {
+  color: var(--txt-color) !important;
 }
 a {
   text-decoration: none;
