@@ -1,6 +1,6 @@
 body {
   background-color: var(--bg-color);
-  transition: --bg-color 300ms;
+  transition: all 300ms;
 }
 :root {
   --bg-color: #111111;
