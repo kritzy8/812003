@@ -12,11 +12,13 @@ body {
   --ch-close-hover-color: #434343;
   --close-txt-color: #000000;
   --ch-close-bg-color: #646464;
-  --ttt-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
+  --ttt-shadow: 0px 2px 7px rgba(0, 0, 0, 0.6);
   --ttt-bg-color: rgba(41, 41, 41, 0.5);
   --ttt-hover-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
   --ttt-hover-bg-color: rgba(255, 255, 255, 0.125);
   --ttt-sw-icon-color: #f5f5f7;
+  --swmode-shadow: 0px 2px 7px rgba(0, 0, 0, 0.6);
+  --swmode-hover-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
   --icon-rotation: 0deg;
 }
 .light-theme {
