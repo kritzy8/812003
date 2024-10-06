@@ -99,6 +99,11 @@ body::-webkit-scrollbar-thumb:hover {
   padding: 10px 18px 10px 18px;
   background-color: #292929;
 }
+.link-slot-even-last {
+  padding: 10px 18px 28px 18px;
+  border-radius: 0px 0px 18px 18px;
+  background-color: #292929;
+}
 .link-name {
   display: flex;
   font-family: Noto Sans Thai, Arial, sans-serif;
