@@ -113,11 +113,6 @@
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"
     ></script>
-    <script>
-      $(function () {
-        $("#footer").load("/html/footer-ttotwkatfp.html");
-      });
-    </script>
   </head>
   <body style="margin: 0px">
     <a href="#"><i class="ttt fa-solid fa-arrow-up"></i></a>
@@ -799,6 +794,13 @@
     </section>
     <div style="margin-top: 100px"></div>
     <footer id="footer"></footer>
+    <script>
+      fetch("../html/footer-ttotwkatfp.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
     <script src="../js/darkmode.js"></script>
   </body>
 </html>
