@@ -100,16 +100,6 @@
       src="https://kit.fontawesome.com/d68c00e31a.js"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.js"
-      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      $(function () {
-        $("#footer").load("/html/footer.html");
-      });
-    </script>
   </head>
   <body style="margin: 0px; background-color: #111111">
     <a href="https://812003.xyz/th/me"><span class="lang-th">TH</span></a>
@@ -1855,6 +1845,13 @@
     </div>
     <div style="margin-top: 50px"></div>
     <footer id="footer"></footer>
+    <script>
+      fetch("/html/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
     <script>
       res.setHeader("Permissions-Policy", "ch-ua-form-factor");
     </script>
