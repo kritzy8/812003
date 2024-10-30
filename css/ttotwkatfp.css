@@ -172,13 +172,6 @@ a {
 .indent {
   text-indent: 1.27cm;
 }
-.blue-hr {
-  border-radius: 5px;
-  height: 3px;
-  background-color: #56ccff;
-  border-style: none;
-  margin: 20px 0 20px;
-}
 .ch-hr {
   height: 1px;
   background-color: var(--hr-color);
