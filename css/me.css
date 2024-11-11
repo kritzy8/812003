@@ -568,7 +568,10 @@ html {
   .kz-info-data,
   .kz-info-data-end {
     font-size: 14px !important;
-    line-height: 21px !important;
+    line-height: 24px !important;
+  }
+  .kz-info-data-th {
+    font-size: 14px !important;
   }
   .h-info {
     margin-top: 4px !important;
@@ -580,6 +583,11 @@ html {
   }
 }
 @media all and (max-width: 400px) {
+  .profile-desc,
+  .kz-info-data,
+  .kz-info-data-end {
+    line-height: 22px !important;
+  }
   .profile-name,
   .kz-info-head {
     font-size: 28px;
