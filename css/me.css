@@ -569,6 +569,9 @@ html {
     font-size: 14px !important;
     line-height: 21px !important;
   }
+  .h-info {
+    margin-top: 4px !important;
+  }
 }
 @media all and (max-width: 478px) {
   .fp-iframe {
@@ -582,6 +585,9 @@ html {
   }
   .card-head-t {
     font-size: 20px;
+  }
+  .title {
+    font-size: 18px;
   }
 }
 
