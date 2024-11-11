@@ -349,7 +349,8 @@ html {
   color: #56ccff;
   margin: 12px 18px 0 18px;
 }
-.info-data-sh > a {
+.info-data-sh > a,
+.title > a {
   text-decoration: none;
 }
 .h-info {
