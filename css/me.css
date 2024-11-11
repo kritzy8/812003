@@ -246,7 +246,7 @@ html {
   margin: 0 0 0 18px;
   color: #fbfbfb;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 28px;
 }
 .card-nm {
   margin-bottom: 0px;
@@ -351,6 +351,30 @@ html {
 }
 .info-data-sh > a {
   text-decoration: none;
+}
+.h-info {
+  display: block;
+  margin: 0 0 10px;
+}
+.date,
+.title {
+  font-family: Inter, Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+.date {
+  display: inline;
+  font-size: 12px;
+  background-color: #f0f0f0;
+  color: #000000;
+  padding: 4px 8px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.title {
+  font-size: 22px;
+  color: #56ccff;
+  line-height: 1.5 !important;
 }
 .blue-hr {
   border-radius: 5px;
@@ -534,7 +558,7 @@ html {
     font-size: 32px;
   }
   .card-head-t {
-    font-size: 26px;
+    font-size: 24px;
   }
   .info-data-sh {
     font-size: 20px;
@@ -557,7 +581,7 @@ html {
     font-size: 28px;
   }
   .card-head-t {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
