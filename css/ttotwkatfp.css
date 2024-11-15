@@ -20,6 +20,8 @@ body {
   --swmode-shadow: 0px 2px 7px rgba(0, 0, 0, 0.6);
   --swmode-hover-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
   --icon-rotation: 0deg;
+  --sel-txt-color: #000000;
+  --sel-bg-color: #f4f4f4;
 }
 .light-theme {
   --bg-color: #f4f4f4;
@@ -40,6 +42,17 @@ body {
   --swmode-hover-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
   --control-unclickable-color: #d8d8d8;
   --icon-rotation: 180deg;
+  --sel-txt-color: #f4f4f4;
+  --sel-bg-color: #111111;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: var(--sel-txt-color);
+  background: var(--sel-bg-color);
+}
+::selection {
+  color: var(--sel-txt-color);
+  background: var(--sel-bg-color);
 }
 .swmode.fa-solid {
   rotate: var(--icon-rotation);
