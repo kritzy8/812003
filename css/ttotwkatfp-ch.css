@@ -42,6 +42,15 @@ body {
   --control-unclickable-color: #d8d8d8;
   --icon-rotation: 180deg;
 }
+::-moz-selection {
+  /* Code for Firefox */
+  color: var(--sel-txt-color);
+  background: var(--sel-bg-color);
+}
+::selection {
+  color: var(--sel-txt-color);
+  background: var(--sel-bg-color);
+}
 .swmode.fa-solid {
   rotate: var(--icon-rotation);
 }
