@@ -221,7 +221,7 @@ h3 {
 .warning {
   text-decoration: underline;
   font-weight: bold;
-  color: #de3e44;
+  color: #d22a29;
 }
 @media all and (max-width: 800px) {
   .g-control {
