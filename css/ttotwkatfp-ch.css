@@ -218,6 +218,11 @@ h3 {
 .p-text-p > div {
   margin-bottom: 22px;
 }
+.warning {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #de3e44;
+}
 @media all and (max-width: 800px) {
   .g-control {
     bottom: 25px;
