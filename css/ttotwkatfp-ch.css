@@ -21,6 +21,9 @@ body {
   --swmode-hover-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
   --control-unclickable-color: #5a5a5a;
   --icon-rotation: 0deg;
+  --sel-txt-color: #000000;
+  --sel-bg-color: #f4f4f4;
+  --warning: #ff2a29;
 }
 .light-theme {
   --bg-color: #f4f4f4;
@@ -41,6 +44,9 @@ body {
   --swmode-hover-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
   --control-unclickable-color: #d8d8d8;
   --icon-rotation: 180deg;
+  --sel-txt-color: #f4f4f4;
+  --sel-bg-color: #111111;
+  --warning: #d22a29;
 }
 ::-moz-selection {
   /* Code for Firefox */
@@ -231,7 +237,7 @@ h3 {
 .warning {
   text-decoration: underline;
   font-weight: bold;
-  color: #d22a29;
+  color: var(--warning);
 }
 @media all and (max-width: 800px) {
   .g-control {
