@@ -5,9 +5,10 @@ h2 {
 h3 {
   padding: 18px 0 18px 18px;
   margin: 0 0 !important;
+  font-size: 20px !important;
   font-family: Noto Sans Thai;
   font-weight: 600;
-  background-color: #124680;
+  background-color: #424242;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
@@ -68,7 +69,7 @@ h3 {
   background-color: #0dcb67;
 }
 .stt-close {
-  background-color: #d22a29;
+  background-color: #ff2a29;
 }
 .stt-unk {
   background-color: #888888;
