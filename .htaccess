@@ -27,6 +27,7 @@ ErrorDocument 403 /html/403.html
 
 Redirect /discord https://discord.gg/MemFf9WyCV
 Redirect /fb https://facebook.com/kritzy08
+Redirect /twt https://twitter.com/kritzy_8
 
 Redirect /ttb2023-1 https://docs.google.com/spreadsheets/d/1xpki9dWfYuxkn6DqrlugvF5noZ-ktAhb
 Redirect /ttb2023-2 https://docs.google.com/spreadsheets/u/0/d/1nBi0CWdtPG_mqwO0_YqsXEw3QR-l-ILULrkiiTic2Gc/htmlview#gid=106940637
