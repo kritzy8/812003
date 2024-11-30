@@ -322,6 +322,7 @@ html {
   font-family: Inter, Arial, sans-serif;
   font-weight: normal;
   font-size: 16px;
+  line-height: 24px;
   color: #888888;
 }
 .kz-info-data {
@@ -371,6 +372,15 @@ html {
   background-color: #424242;
   border-style: none;
   margin: 10px 0 8px;
+}
+.data-link-888888:link,
+.data-link-888888:visited {
+  color: #888888;
+  text-decoration: none;
+  transition: 200ms;
+}
+.data-link-888888:hover {
+  color: #56ccff;
 }
 .data-link:link,
 .data-link:visited {

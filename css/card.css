@@ -60,6 +60,7 @@
   font-family: Inter, Arial, sans-serif;
   font-weight: normal;
   font-size: 16px;
+  line-height: 24px;
   color: #888888;
   margin-left: 20px;
 }
@@ -234,6 +235,15 @@
 .mp-me:active > .fa-solid {
   color: #ffffff !important;
   transition: all 0ms !important;
+}
+.data-link-888888:link,
+.data-link-888888:visited {
+  color: #888888;
+  text-decoration: none;
+  transition: 200ms;
+}
+.data-link-888888:hover {
+  color: #56ccff;
 }
 .fa-solid,
 .fa-brands,
