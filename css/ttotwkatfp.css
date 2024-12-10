@@ -6,7 +6,7 @@ body {
   --bg-color: #111111;
   --txt-color: #f5f5f7;
   --card-color: #292929;
-  --card-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  --card-shadow: 0px 5px 15px rgba(0, 0, 0, 0.75);
   --hr-color: #373737;
   --ch-close-color: #1b1b1b;
   --ch-close-hover-color: #434343;
