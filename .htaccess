@@ -22,6 +22,8 @@ RewriteRule ^403/?$ /html/403.html
 RewriteRule ^ttotwkatfp/?$ /ttotwkatfp/ttotwkatfp.html
 RewriteRule ^fs2/?$ /frozenserver2/html/fs2.html
 
+RewriteRule ^cooppaper/?$ /files/pdf/Process_of_making_visual_design_in_the_3DEXPERIENCE_Works_Innovation_Day_2025_event.pdf
+
 ErrorDocument 404 /html/404.html
 ErrorDocument 403 /html/403.html
 
