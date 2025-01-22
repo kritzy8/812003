@@ -49,14 +49,20 @@ h3 {
   display: flex;
   justify-content: space-between;
   column-gap: 16px;
+  text-decoration: none;
 }
 .course-info {
 }
 .course-status {
   align-content: center;
 }
+a:link,
+a:visited {
+  text-decoration: none;
+}
 .stt-open,
 .stt-close,
+.stt-check,
 .stt-unk {
   font-family: Inter, Arial, sans-serif;
   color: #111111;
@@ -70,6 +76,14 @@ h3 {
 }
 .stt-close {
   background-color: #ff2a29;
+}
+.stt-close:hover,
+.stt-check:hover,
+.stt-unk:hover {
+  cursor: no-drop;
+}
+.stt-check {
+  background-color: #fcba03;
 }
 .stt-unk {
   background-color: #888888;
