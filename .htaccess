@@ -21,6 +21,7 @@ RewriteRule ^403/?$ /html/403.html
 
 RewriteRule ^ttotwkatfp/?$ /ttotwkatfp/ttotwkatfp.html
 RewriteRule ^200yrs/?$ /200yrs/200yrs.html
+RewriteRule ^mynextdoorneighbor/?$ /mynextdoorneighbor/mynextdoorneighbor.html
 RewriteRule ^fs2/?$ /frozenserver2/html/fs2.html
 
 RewriteRule ^cooppaper/?$ /files/pdf/Process_of_making_visual_design_in_the_3DEXPERIENCE_Works_Innovation_Day_2025_event.pdf
@@ -46,6 +47,7 @@ Redirect /sheout-mockup https://www.figma.com/proto/2qNM5w3WEiPIBLChSxJFnH/SHEOU
 Redirect /ttotwkatfpdoc https://docs.google.com/document/d/1AK6HYn5_mKSbq9qLcJgfpOQx1834A2b4okX8Z7wHRvg/edit?usp=sharing
 Redirect /ttotwkatfpraw https://www.readawrite.com/a/ffbec068214cb538eff7d5641e948276
 Redirect /200yrsdoc https://docs.google.com/document/d/1vS7VcMIL_6PUfpYrPvsiHGxI7_sLA5g8e-6fnHH8Vz4/edit?usp=sharing
+Redirect /mnndoc https://docs.google.com/document/d/1HyJvv20sXfvqbnxDQsHDdDV-w4zBE_HplJJKcLHj9sA/edit?usp=sharing
 
 Redirect /hbd https://youtu.be/FXgBBsbKwMI?si=-2itD4hHLv8gpZyO&t=45
 
