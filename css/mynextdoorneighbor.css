@@ -291,7 +291,11 @@ a {
 .ny,
 .ny:visited,
 .mk,
-.mk:visited {
+.mk:visited,
+.bo,
+.bo:visited,
+.pui,
+.pui:visited {
   color: var(--txt-color);
   text-decoration: none;
   transition: all 300ms;
@@ -300,6 +304,8 @@ a {
   color: #56ccff;
 }
 .ny:hover,
-.mk:hover {
+.mk:hover,
+.bo:hover,
+.pui:hover {
   color: #0dcb67;
 }
