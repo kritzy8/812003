@@ -265,12 +265,15 @@ h3 {
 .bo,
 .bo:visited,
 .pui,
-.pui:visited {
+.pui:visited,
+.fn,
+.fn:visited {
   color: var(--txt-color);
   text-decoration: none;
   transition: all 300ms;
 }
-.kz:hover {
+.kz:hover,
+.fn:hover {
   color: #56ccff;
 }
 .ny:hover,
