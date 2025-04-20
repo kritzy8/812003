@@ -25,11 +25,11 @@ html {
 .profile-name,
 .kz-info-data,
 .smalltext {
-  font-family: Inter, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   color: #f5f5f7;
 }
 .bigtext {
-  font-family: Inter, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   font-weight: normal;
   font-size: 50px;
   color: #f5f5f7;
@@ -42,7 +42,7 @@ html {
 .kz-20,
 .kz-era,
 .kz-last {
-  font-family: Inter, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   font-weight: bold;
   font-size: 50px;
   transition: 200ms;
@@ -106,7 +106,7 @@ html {
   padding: 10px 16px 10px 16px;
   border-radius: 20px;
   border: none;
-  font-family: Inter, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
@@ -319,7 +319,7 @@ html {
 }
 .profile-desc {
   display: inline-block;
-  font-family: Inter, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
@@ -347,7 +347,7 @@ html {
 }
 .date,
 .title {
-  font-family: Inter, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   font-weight: bold;
   text-decoration: none;
 }
@@ -398,7 +398,7 @@ html {
 .kz-info-data-nm,
 .kz-info-data-end {
   display: block;
-  font-family: Inter, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -565,7 +565,7 @@ html {
   text-decoration: none;
   transition: box-shadow, color, background-color 200ms;
   text-align: center;
-  font-family: Inter, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   font-weight: bold;
   color: #111111;
   background-color: #56ccff;
