@@ -28,6 +28,7 @@ RewriteRule ^cooppaper/?$ /files/pdf/Process_of_making_visual_design_in_the_3DEX
 Redirect /coopslide https://www.canva.com/design/DAGbiEMAa4c/jwupmvxMic65SYiwjCdkDA/edit
 Redirect /cooplink https://drive.google.com/drive/u/1/folders/1-2sSW7y3RTSXQnIYJR8BisIIQ3_myzjm
 Redirect /เบิกงบ /files/pdf/budget_request_form.pdf
+Redirect /เบิกงบรอบสอง /files/pdf/budget_request_form_round2.pdf
 
 ErrorDocument 404 /html/404.html
 ErrorDocument 403 /html/403.html
