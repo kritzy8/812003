@@ -1,0 +1,208 @@
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #56ccff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #34a6d6;
+}
+.ttt {
+  position: fixed;
+  color: #56ccff;
+  background-color: #292929;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 14px 10px 14px;
+  border-radius: 80px;
+  border-style: none;
+  bottom: 30px;
+  right: 30px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+  transition: all 200ms;
+}
+.ttt:hover {
+  background-color: #1f1f1f;
+  color: #34a6d6;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header-pic {
+  height: 60vh;
+  width: 0;
+  flex: 1;
+  object-fit: cover;
+  object-position: center;
+}
+.g-title {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 36px;
+  margin-bottom: 36px;
+  flex-direction: column;
+}
+.title-main {
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #f5f5f7;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+.title-sub {
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #f5f5f7;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.g-update {
+  display: flex;
+  justify-content: space-evenly;
+}
+.update-box {
+  background-color: #282829;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 18px;
+  margin-bottom: 60px;
+  width: auto;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.update-head {
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #f5f5f7;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 18px 18px 18px 18px;
+  text-align: left;
+}
+.update-list {
+  margin: 0 18px 0 18px;
+}
+.update-list.last-list {
+  margin-bottom: 18px;
+}
+.date {
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #f5f5f7;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 2px;
+}
+.info {
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #f5f5f7;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+}
+.tag-version,
+.tag-law,
+.tag-world,
+.tag-gov {
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  border-radius: 4px;
+  padding: 1px 6px;
+}
+.tag-version {
+  background-color: #0dcb67;
+}
+.tag-law {
+  background-color: #7f30bd;
+  color: #f5f5f7;
+}
+.tag-world {
+  background-color: #56ccff;
+}
+.tag-gov {
+  background-color: #f16d33;
+}
+.g-footer {
+  background-color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.update-list-hr {
+  height: 1px;
+  background-color: #373737;
+  border-style: none;
+  margin: 16px 0 16px;
+}
+.main-footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.footer-img {
+  width: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+.footer-name {
+  display: flex;
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #f5f5f7;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  align-items: center;
+}
+.footer-info {
+  display: flex;
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #f5f5f7;
+  font-size: 22px;
+  font-weight: normal;
+  text-align: left;
+  align-items: center;
+}
+.footer {
+  background-color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  text-align: center;
+}
+.footer-text {
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  color: #f5f5f7;
+}
+.footer-rc {
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  color: #f5f5f7;
+}
+.rc {
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  color: #f5f5f7;
+  text-decoration: none;
+}
+.rc:hover {
+  text-decoration: underline;
+}

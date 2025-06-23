@@ -600,6 +600,14 @@ html {
 .data-link:hover {
   color: #34a6d6;
 }
+.data-link-alt:link,
+.data-link-alt:visited {
+  color: #f5f5f7;
+  transition: 200ms;
+}
+.data-link-alt:hover {
+  color: #34a6d6;
+}
 .kz-info-data:link,
 .kz-info-data:visited {
   color: #f5f5f7;
