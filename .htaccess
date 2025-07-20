@@ -23,6 +23,7 @@ RewriteRule ^ttotwkatfp/?$ /ttotwkatfp/ttotwkatfp.html
 RewriteRule ^200yrs/?$ /200yrs/200yrs.html
 RewriteRule ^mynextdoorneighbor/?$ /mynextdoorneighbor/mynextdoorneighbor.html
 RewriteRule ^fs2/?$ /frozenserver2/html/fs2.html
+RewriteRule ^fs2map/?$ /frozenserver2/fs2map/index.html
 
 RewriteRule ^cooppaper/?$ /files/pdf/Process_of_making_visual_design_in_the_3DEXPERIENCE_Works_Innovation_Day_2025_event.pdf
 Redirect /coopslide https://www.canva.com/design/DAGbiEMAa4c/jwupmvxMic65SYiwjCdkDA/edit
