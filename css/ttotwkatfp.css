@@ -34,9 +34,9 @@ body {
   --close-txt-color: #f5f5f7;
   --ch-close-bg-color: #888888;
   --ttt-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
-  --ttt-bg-color: rgba(255, 255, 255, 0.5);
+  --ttt-bg-color: rgba(255, 255, 255, 0.25);
   --ttt-hover-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-  --ttt-hover-bg-color: rgba(0, 0, 0, 0.1);
+  --ttt-hover-bg-color: rgba(188, 188, 188, 0.25);
   --ttt-sw-icon-color: #000000;
   --swmode-shadow: 0px -2px 5px rgba(0, 0, 0, 0.25);
   --swmode-hover-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
