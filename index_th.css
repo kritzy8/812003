@@ -1,11 +1,3 @@
-@font-face {
-  font-family: "LINESeedSansTH";
-  src: url(/files/font/LINESeedSansTH_W_Rg.woff2);
-}
-@font-face {
-  font-family: MiSansThai;
-  src: url(/files/font/MiSansThai-Normal.woff2);
-}
 html {
   scroll-behavior: smooth;
 }
@@ -84,7 +76,7 @@ html {
   color: #ef771e;
 }
 .kz-era {
-  color: #ecebe7;
+  color: #d96846;
 }
 .kz-last {
   color: #80746b;
