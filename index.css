@@ -1,3 +1,16 @@
+:root {
+  --kz-blue: #56ccff;
+  --apple-white: #f5f5f7;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: #000000;
+  background: #f4f4f4;
+}
+::selection {
+  color: #000000;
+  background: #f4f4f4;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -26,13 +39,13 @@ html {
 .kz-info-data,
 .smalltext {
   font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
-  color: #f5f5f7;
+  color: var(--apple-white);
 }
 .bigtext {
   font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   font-weight: normal;
   font-size: 50px;
-  color: #f5f5f7;
+  color: var(--apple-white);
 }
 .kz-blue,
 .kz-graphic,
@@ -48,7 +61,7 @@ html {
   transition: 200ms;
 }
 .kz-blue {
-  color: #56ccff;
+  color: var(--kz-blue);
 }
 .kz-graphic {
   color: #ff2775;
@@ -110,7 +123,8 @@ html {
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
-  transition: box-shadow, color, background-color 200ms !important;
+  /*transition: box-shadow, color, background-color, transform, margin 200ms !important;*/
+  transition: all 200ms !important;
   text-align: center;
 }
 .twt-button:hover,
@@ -120,7 +134,9 @@ html {
 .ig-button:hover,
 .yt-button:hover {
   box-shadow: 0px 0px 14px rgba(0, 0, 0, 1);
-  color: #d2d2d3;
+  color: #f5f5f799;
+  transform: scale(1.15);
+  margin: 0 8px 0 8px;
 }
 .twt-button:hover > .fa-brands,
 .fb-button:hover > .fa-brands,
@@ -128,7 +144,7 @@ html {
 .dc-button:hover > .fa-brands,
 .ig-button:hover > .fa-brands,
 .yt-button:hover > .fa-brands {
-  color: #d2d2d3;
+  color: #f5f5f799;
   transition: all 0ms !important;
 }
 .twt-button:active,
@@ -138,16 +154,16 @@ html {
 .ig-button:active,
 .yt-button:active {
   border: solid;
-  color: #f5f5f7;
+  color: var(--apple-white);
   border-width: 3px;
   padding: 7px 13px 7px 13px;
 }
 .twt-button {
   background-color: #1d9bf0;
-  color: #f5f5f7;
+  color: var(--apple-white);
 }
 .twt-button:hover {
-  background-color: #157bbe;
+  background-color: #1d9bf099;
 }
 .twt-button:active {
   border-color: #1d9bf0;
@@ -155,10 +171,10 @@ html {
 }
 .fb-button {
   background-color: #2076ff;
-  color: #f5f5f7;
+  color: var(--apple-white);
 }
 .fb-button:hover {
-  background-color: #135bce;
+  background-color: #2076ff99;
 }
 .fb-button:active {
   border-color: #2076ff;
@@ -166,10 +182,10 @@ html {
 }
 .li-button {
   background-color: #0a66c2;
-  color: #f5f5f7;
+  color: var(--apple-white);
 }
 .li-button:hover {
-  background-color: #065099;
+  background-color: #0a66c299;
 }
 .li-button:active {
   border-color: #0a66c2;
@@ -177,10 +193,10 @@ html {
 }
 .dc-button {
   background-color: #5865f2;
-  color: #f5f5f7;
+  color: var(--apple-white);
 }
 .dc-button:hover {
-  background-color: #4953c2;
+  background-color: #5865f299;
 }
 .dc-button:active {
   border-color: #5865f2;
@@ -188,10 +204,10 @@ html {
 }
 .ig-button {
   background-color: #9a2ecb;
-  color: #f5f5f7;
+  color: var(--apple-white);
 }
 .ig-button:hover {
-  background-color: #7a25a1;
+  background-color: #9a2ecb99;
 }
 .ig-button:active {
   border-color: #9a2ecb;
@@ -199,10 +215,10 @@ html {
 }
 .yt-button {
   background-color: #e11d1d;
-  color: #f5f5f7;
+  color: var(--apple-white);
 }
 .yt-button:hover {
-  background-color: #b41717;
+  background-color: #e11d1d99;
 }
 .yt-button:active {
   border-color: #e11d1d;
@@ -338,7 +354,7 @@ html {
   font-family: Noto Sans Thai, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #f5f5f7;
+  color: var(--apple-white);
   text-decoration: none;
 }
 .h-info {
@@ -362,7 +378,7 @@ html {
 }
 .title {
   font-size: 16px;
-  color: #56ccff;
+  color: var(--kz-blue);
 }
 .xtm8 {
   margin-top: 8px !important;
@@ -380,11 +396,11 @@ html {
   transition: 200ms;
 }
 .data-link-888888:hover {
-  color: #56ccff;
+  color: var(--kz-blue);
 }
 .data-link:link,
 .data-link:visited {
-  color: #56ccff;
+  color: var(--kz-blue);
   transition: 200ms;
 }
 .data-link:hover {
@@ -392,7 +408,7 @@ html {
 }
 .kz-info-data:link,
 .kz-info-data:visited {
-  color: #f5f5f7;
+  color: var(--apple-white);
   text-decoration: none;
 }
 .kz-info-data-nm,
@@ -402,7 +418,7 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #f5f5f7;
+  color: var(--apple-white);
   margin: 0 18px 0 18px;
   padding-top: 6px;
 }
@@ -519,19 +535,22 @@ html {
 .fa-solid:visited,
 .fa-brands:visited {
   text-decoration: none;
-  color: #56ccff;
+  color: var(--kz-blue);
   transition: color 200ms;
 }
 .fa-solid:hover,
 .fa-brands:hover {
   color: #34a6d6;
 }
+.fa-nohover {
+  color: var(--kz-blue) !important;
+}
 .fa-white {
-  color: #f5f5f7;
+  color: var(--apple-white);
   margin-right: 4px;
 }
 .fa-white:hover {
-  color: #f5f5f7;
+  color: var(--apple-white);
 }
 .fa-black {
   color: #111111;
@@ -542,7 +561,7 @@ html {
   color: #111111;
 }
 .bh:active > .fa-black {
-  color: #f5f5f7;
+  color: var(--apple-white);
 }
 .fa-mm {
   margin-right: 8px;
@@ -568,22 +587,22 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   font-weight: bold;
   color: #111111;
-  background-color: #56ccff;
+  background-color: var(--kz-blue);
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 1);
   align-items: center;
   margin-left: 8px;
   margin-right: 8px;
 }
 .bh:hover {
-  background-color: #34a6d6;
+  background-color: #56ccff99;
   box-shadow: 0px 3px 14px rgba(0, 0, 0, 1);
 }
 .bh:active {
   border-width: 3px;
   border: solid;
   padding: 7px 13px 7px 13px;
-  color: #f5f5f7;
-  border-color: #56ccff;
+  color: var(--apple-white);
+  border-color: var(--kz-blue);
   background-color: #161617;
 }
 .g-resume {
