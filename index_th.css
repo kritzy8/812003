@@ -209,25 +209,25 @@ html {
   background-color: #161617;
 }
 .ig-button {
-  background-color: #9a2ecb;
+  background-color: #8941a7;
   color: #f5f5f7;
 }
 .ig-button:hover {
-  background-color: #9a2ecb99;
+  background-color: #8941a799;
 }
 .ig-button:active {
-  border-color: #9a2ecb;
+  border-color: #8941a7;
   background-color: #161617;
 }
 .yt-button {
-  background-color: #e11d1d;
+  background-color: #d80831;
   color: #f5f5f7;
 }
 .yt-button:hover {
-  background-color: #e11d1d99;
+  background-color: #d8083199;
 }
 .yt-button:active {
-  border-color: #e11d1d;
+  border-color: #d80831;
   background-color: #161617;
 }
 .bh.th,
