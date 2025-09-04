@@ -199,15 +199,7 @@
           <img src="img/me/kz8.png" class="profile-img" />
           <div class="g-profile-name">
             <span class="profile-name th">กฤษกร หวานจริง</span>
-            <span class="profile-desc"
-              >เด็กจบใหม่สาขานิเทศศาสตร์ที่รักในการทำอะไรที่น่าตื่นเต้นและท้าทาย
-              ขอกวักมือทุกคนมาอ่าน e-book เล่มแรกในชีวิตของผม
-              <a
-                class="data-link-888888"
-                href="https://812003.xyz/mynextdoorneighbor"
-                >ซามอยด์ข้างบ้าน (My Next-door Neighbor)</a
-              ></span
-            >
+            <div id="bio"></div>
           </div>
         </div>
       </div>
@@ -947,6 +939,13 @@
         .then((response) => response.text())
         .then((data) => {
           document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+    <script>
+      fetch("/html/bio-th.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("bio").innerHTML = data;
         });
     </script>
   </body>
