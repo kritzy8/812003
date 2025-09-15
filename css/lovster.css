@@ -1,0 +1,311 @@
+body {
+  background-color: var(--bg-color);
+  transition: all 300ms;
+}
+:root {
+  --bg-color: #111111;
+  --txt-color: #f5f5f7;
+  --card-color: #292929;
+  --card-shadow: 0px 5px 15px rgba(0, 0, 0, 0.75);
+  --hr-color: #373737;
+  --ch-close-color: #1b1b1b;
+  --ch-close-hover-color: #434343;
+  --close-txt-color: #000000;
+  --ch-close-bg-color: #646464;
+  --ttt-shadow: 0px 2px 7px rgba(0, 0, 0, 0.6);
+  --ttt-bg-color: rgba(41, 41, 41, 0.5);
+  --ttt-hover-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
+  --ttt-hover-bg-color: rgba(255, 255, 255, 0.125);
+  --ttt-sw-icon-color: #f5f5f7;
+  --swmode-shadow: 0px 2px 7px rgba(0, 0, 0, 0.6);
+  --swmode-hover-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
+  --icon-rotation: 0deg;
+  --sel-txt-color: #000000;
+  --sel-bg-color: #f4f4f4;
+}
+.light-theme {
+  --bg-color: #f4f4f4;
+  --txt-color: #000000;
+  --card-color: #fafafa;
+  --card-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  --hr-color: #d8d8d8;
+  --ch-close-color: #eeeeee;
+  --ch-close-hover-color: #d8d8d8;
+  --close-txt-color: #f5f5f7;
+  --ch-close-bg-color: #888888;
+  --ttt-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  --ttt-bg-color: rgba(255, 255, 255, 0.25);
+  --ttt-hover-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  --ttt-hover-bg-color: rgba(188, 188, 188, 0.25);
+  --ttt-sw-icon-color: #000000;
+  --swmode-shadow: 0px -2px 5px rgba(0, 0, 0, 0.25);
+  --swmode-hover-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
+  --control-unclickable-color: #d8d8d8;
+  --icon-rotation: 180deg;
+  --sel-txt-color: #f4f4f4;
+  --sel-bg-color: #111111;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: var(--sel-txt-color);
+  background: var(--sel-bg-color);
+}
+::selection {
+  color: var(--sel-txt-color);
+  background: var(--sel-bg-color);
+}
+.swmode.fa-solid {
+  rotate: var(--icon-rotation);
+}
+h2,
+h3 {
+  color: var(--txt-color) !important;
+}
+.ttt {
+  background-color: var(--ttt-bg-color) !important;
+  box-shadow: var(--ttt-shadow) !important;
+}
+.ttt:hover {
+  background-color: var(--ttt-hover-bg-color) !important;
+  box-shadow: var(--ttt-hover-shadow) !important;
+}
+.swmode {
+  background-color: var(--ttt-bg-color) !important;
+  box-shadow: var(--swmode-shadow) !important;
+}
+.swmode:hover {
+  background-color: var(--ttt-hover-bg-color) !important;
+  box-shadow: var(--swmode-hover-shadow) !important;
+}
+.swmode:hover.fa-solid,
+.ttt:hover.fa-solid {
+  color: var(--txt-color) !important;
+}
+a {
+  text-decoration: none;
+}
+.imply {
+  margin: 0 0 6px 0 !important;
+}
+.imply,
+.author {
+  display: block;
+  font-family: Inter, Arial, sans-serif;
+  color: var(--txt-color);
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin: 0 8px 0 8px;
+}
+.g-lovster-img {
+  display: flex;
+  justify-content: center;
+  width: 480px;
+  margin-bottom: 20px;
+}
+.raw {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  transition: all 300ms;
+}
+.raw:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+@media all and (max-width: 480px) {
+  .g-lovster-img {
+    width: auto !important;
+  }
+}
+.lovster-img {
+  width: 100%;
+}
+.author {
+  font-weight: 600;
+}
+.name {
+  display: block;
+  font-family: Inter, Arial, sans-serif;
+  color: #56ccff;
+  font-weight: 700;
+  font-size: 37px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.g-intro,
+.center-card {
+  display: flex;
+  justify-content: center;
+}
+.intro {
+  justify-content: space-evenly;
+  width: 900px;
+}
+.p-text {
+  display: block;
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: var(--txt-color);
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.75;
+  margin: 0 8px 18px 8px;
+}
+.p-center {
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  background-color: var(--card-color);
+  box-shadow: var(--card-shadow);
+  padding: 18px 18px 18px 18px;
+  border-radius: 14px;
+  margin: 0px 8px 20px 8px;
+  width: 800px;
+  transition: all 300ms;
+}
+.nopadding {
+  padding: 0 !important;
+}
+.nobtmmargin {
+  margin-bottom: 0 !important;
+}
+.invis-card {
+  display: inline-block;
+  border-radius: 14px;
+  margin: 0px 8px 20px 8px;
+  width: 800px;
+}
+.indent {
+  text-indent: 1.27cm;
+}
+.ch-hr {
+  height: 1px;
+  background-color: var(--hr-color);
+  border-style: none;
+  margin: 0;
+  transition: all 300ms;
+}
+.chapter {
+  background-color: var(--card-color);
+  padding: 12px 18px 12px 18px;
+  transition: all 300ms;
+}
+.last-card {
+  border-radius: 0 0 14px 14px;
+}
+.chapter:hover {
+  background-color: #56ccff;
+  cursor: pointer;
+}
+.chapter:hover > .ch-head > .ch-no {
+  color: #000000;
+}
+.chapter:hover > .ch-info > .ch-words,
+.chapter:hover > .ch-info > .ch-time,
+.chapter:hover > .ch-text {
+  color: #1b1b1b;
+}
+.chapter.ch-closed {
+  background-color: var(--ch-close-color);
+}
+.ch-closed > .ch-head > .ch-no {
+  color: #208fbe;
+}
+.ch-closed:hover > .ch-head > .ch-no {
+  color: #208fbe;
+}
+.ch-closed > .ch-text,
+.ch-closed:hover > .ch-text {
+  color: #888888;
+}
+.ch-closed:hover > .ch-info > .ch-words,
+.ch-closed:hover > .ch-info > .ch-time {
+  color: #5a5a5a;
+}
+.ch-closed:hover {
+  cursor: no-drop;
+  background-color: var(--ch-close-hover-color);
+}
+.ch-closed:hover > .ch-no {
+  color: #56ccff;
+}
+.ch-closed:hover > .ch-info > .ch-words,
+.ch-closed:hover > .ch-info > .ch-time {
+  color: #888888;
+}
+.ch-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+.fa-eye-slash {
+  margin-right: 4px;
+}
+.ch-no {
+  display: inline-block;
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #56ccff;
+  font-weight: 600;
+  font-size: 16px;
+}
+.closed-indicator {
+  background-color: var(--ch-close-bg-color);
+  padding: 2px 10px 0px 10px;
+  border-radius: 16px;
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--close-txt-color);
+}
+.ch-text {
+  display: block;
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: var(--txt-color);
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.ch-info {
+  display: flex;
+  justify-content: space-between;
+}
+.ch-time,
+.ch-words {
+  display: inline-block;
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: #888888;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: left;
+}
+.kz,
+.kz:visited,
+.ny,
+.ny:visited,
+.mk,
+.mk:visited,
+.bo,
+.bo:visited,
+.pui,
+.pui:visited {
+  color: var(--txt-color);
+  text-decoration: none;
+  transition: all 300ms;
+}
+.kz:hover {
+  color: #56ccff;
+}
+.ny:hover,
+.mk:hover,
+.bo:hover,
+.pui:hover {
+  color: #0dcb67;
+}
