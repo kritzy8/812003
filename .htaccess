@@ -26,6 +26,7 @@ RewriteRule ^mnnexample/?$ /mynextdoorneighbor/Example%20-%20My%20Next-door%20Ne
 Redirect /mnnexample https://812003.xyz/mynextdoorneighbor/Example%20-%20My%20Next-door%20Neighbor.pdf
 RewriteRule ^fs2/?$ /frozenserver2/html/fs2.html
 RewriteRule ^fs2map/?$ /frozenserver2/fs2map
+RewriteRule ^lovster/?$ /lovster/lovster.html
 
 RewriteRule ^cooppaper/?$ /files/pdf/Process_of_making_visual_design_in_the_3DEXPERIENCE_Works_Innovation_Day_2025_event.pdf
 Redirect /coopslide https://www.canva.com/design/DAGbiEMAa4c/jwupmvxMic65SYiwjCdkDA/edit
