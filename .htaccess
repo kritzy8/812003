@@ -63,6 +63,7 @@ Redirect /lovsterdoc https://docs.google.com/document/d/1Dl-gPPV9BVbiHOHE1wAiglP
 Redirect /lovsterraw https://www.readawrite.com/a/aca30166b840f1726c680c3311e51511
 
 Redirect /hbd https://youtu.be/FXgBBsbKwMI?si=-2itD4hHLv8gpZyO&t=45
+RewriteRule /valentine /html/valentine.html
 
 Options -Indexes
 
