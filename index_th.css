@@ -257,7 +257,10 @@ html {
   background-color: #292929;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   padding: 0 0 18px;
-  border-radius: 14px;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #424242;
   margin: 0px 8px 20px 8px;
   width: 636px;
 }
@@ -388,7 +391,7 @@ html {
 }
 .divide-hr {
   height: 1px;
-  background-color: #424242;
+  background-color: #373737;
   border-style: none;
   margin: 10px 0 8px;
 }
