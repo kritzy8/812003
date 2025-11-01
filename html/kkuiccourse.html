@@ -10,10 +10,7 @@
       content="https://812003.xyz/img/preview/kkuiccourse.webp"
     />
     <meta property="og:description" content="KKUIC courses tracker" />
-    <meta
-      property="og:url"
-      content="https://812003.xyz/html/kkuiccourse.html"
-    />
+    <meta property="og:url" content="https://812003.xyz/html/kkuiccourse" />
     <link
       rel="apple-touch-icon"
       sizes="57x57"
@@ -1624,7 +1621,7 @@
     <div style="margin-top: 100px"></div>
     <footer id="footer"></footer>
     <script>
-      fetch("/html/footer.html")
+      fetch("/html/footer")
         .then((response) => response.text())
         .then((data) => {
           document.getElementById("footer").innerHTML = data;

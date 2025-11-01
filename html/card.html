@@ -167,14 +167,14 @@
     <div style="margin-top: 50px"></div>
     <footer id="footer"></footer>
     <script>
-      fetch("/html/footer.html")
+      fetch("/html/footer")
         .then((response) => response.text())
         .then((data) => {
           document.getElementById("footer").innerHTML = data;
         });
     </script>
     <script>
-      fetch("/html/bio.html")
+      fetch("/html/bio")
         .then((response) => response.text())
         .then((data) => {
           document.getElementById("bio").innerHTML = data;

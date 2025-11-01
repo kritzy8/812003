@@ -8,7 +8,7 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 
 RewriteRule ^/$ index.html
 RewriteRule ^me/?$ /html/me.html
-RewriteRule ^th/?$ /index_th.html
+RewriteRule ^th/?$ /index-th.html
 RewriteRule ^th/me/?$ /html/me_th.html
 RewriteRule ^card/?$ /html/card.html
 RewriteRule ^link/?$ /html/link.html
