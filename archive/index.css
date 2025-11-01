@@ -1,10 +1,6 @@
 :root {
   --kz-blue: #56ccff;
   --apple-white: #f5f5f7;
-  --alt-white: #e5e5e5;
-  --gray: #a3a3a3;
-  --card-gray: #292929;
-  --card-hover-gray: #1d1d1d;
 }
 ::-moz-selection {
   /* Code for Firefox */
@@ -40,8 +36,7 @@ html {
   margin-bottom: 80px;
 }
 .profile-name,
-.title-txt,
-.body-txt,
+.kz-info-data,
 .smalltext {
   font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   color: var(--apple-white);
@@ -55,7 +50,7 @@ html {
 .kz-blue,
 .kz-graphic,
 .kz-ts,
-.kz-writer,
+.kz-photographer,
 .kz-mc,
 .kz-20,
 .kz-era,
@@ -74,7 +69,7 @@ html {
 .kz-ts {
   color: #b94fd1;
 }
-.kz-writer {
+.kz-photographer {
   color: #737a7a;
 }
 .kz-mc {
@@ -92,6 +87,12 @@ html {
 /*.kz-last {
   color: #ef771e;
 }*/
+.sns {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 8px;
+  margin-right: 8px;
+}
 .smalltext {
   font-weight: normal;
   font-size: 16px;
@@ -104,37 +105,124 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  row-gap: 20px;
-  column-gap: 32px;
-  margin: 36px 0 40px 0;
+  row-gap: 16px;
+  column-gap: 16px;
+  margin-top: 40px;
+  margin-bottom: 24px;
 }
-.sns-button > a {
+.twt-button,
+.fb-button,
+.li-button,
+.dc-button,
+.ig-button,
+.yt-button {
+  padding: 10px 16px 10px 16px;
+  border-radius: 20px;
+  border: none;
   font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
-  font-size: 1em;
-  color: var(--apple-white);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-color: #404040;
-  transition: all 200ms;
-}
-.sns-button > a > i {
+  font-weight: bold;
   font-size: 16px;
-  margin-right: 0.5em;
-  transition: all 200ms;
+  text-decoration: none;
+  /*transition: box-shadow, color, background-color, transform, margin 200ms !important;*/
+  transition: all 200ms !important;
+  text-align: center;
 }
 .twt-button:hover,
 .fb-button:hover,
 .li-button:hover,
 .dc-button:hover,
 .ig-button:hover,
-.yt-button:hover,
-.twt-button:hover > .snsicon,
-.fb-button:hover > .snsicon,
-.li-button:hover > .snsicon,
-.dc-button:hover > .snsicon,
-.ig-button:hover > .snsicon,
-.yt-button:hover > .snsicon {
-  color: var(--gray);
+.yt-button:hover {
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 1);
+  color: #f5f5f799;
+  transform: scale(1.15);
+  margin: 0 8px 0 8px;
+}
+.twt-button:hover > .fa-brands,
+.fb-button:hover > .fa-brands,
+.li-button:hover > .fa-brands,
+.dc-button:hover > .fa-brands,
+.ig-button:hover > .fa-brands,
+.yt-button:hover > .fa-brands {
+  color: #f5f5f799;
+  transition: all 0ms !important;
+}
+.twt-button:active,
+.fb-button:active,
+.li-button:active,
+.dc-button:active,
+.ig-button:active,
+.yt-button:active {
+  border: solid;
+  color: var(--apple-white);
+  border-width: 3px;
+  padding: 7px 13px 7px 13px;
+}
+.twt-button {
+  background-color: #1d9bf0;
+  color: var(--apple-white);
+}
+.twt-button:hover {
+  background-color: #1d9bf099;
+}
+.twt-button:active {
+  border-color: #1d9bf0;
+  background-color: #161617;
+}
+.fb-button {
+  background-color: #2076ff;
+  color: var(--apple-white);
+}
+.fb-button:hover {
+  background-color: #2076ff99;
+}
+.fb-button:active {
+  border-color: #2076ff;
+  background-color: #161617;
+}
+.li-button {
+  background-color: #0a66c2;
+  color: var(--apple-white);
+}
+.li-button:hover {
+  background-color: #0a66c299;
+}
+.li-button:active {
+  border-color: #0a66c2;
+  background-color: #161617;
+}
+.dc-button {
+  background-color: #5865f2;
+  color: var(--apple-white);
+}
+.dc-button:hover {
+  background-color: #5865f299;
+}
+.dc-button:active {
+  border-color: #5865f2;
+  background-color: #161617;
+}
+.ig-button {
+  background-color: #8941a7;
+  color: var(--apple-white);
+}
+.ig-button:hover {
+  background-color: #8941a799;
+}
+.ig-button:active {
+  border-color: #8941a7;
+  background-color: #161617;
+}
+.yt-button {
+  background-color: #d80831;
+  color: var(--apple-white);
+}
+.yt-button:hover {
+  background-color: #d8083199;
+}
+.yt-button:active {
+  border-color: #d80831;
+  background-color: #161617;
 }
 .scroll-down {
   display: flex;
@@ -146,49 +234,6 @@ html {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
-  column-gap: 10px;
-  transition: all 200ms;
-}
-.menu-button > a {
-  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
-  font-size: 16px;
-  color: var(--apple-white);
-}
-.menu-button > a > i {
-  font-size: 18px;
-  margin-right: 8px;
-  color: var(--apple-white);
-}
-.menu-button > a:hover,
-.menu-button > a:hover > i {
-  color: var(--gray);
-}
-.btn {
-  padding: 10px 16px 10px 16px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #424242;
-  border-radius: 24px;
-  font-size: 16px;
-  text-decoration: none;
-  transition: all 200ms;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
-  font-weight: bold;
-  color: var(--apple-white);
-  background-color: var(--card-gray);
-  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.8);
-  align-items: center;
-  margin: 0 8px 0 8px;
-}
-.btn:hover {
-  background-color: var(--card-hover-gray);
-  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.2);
-  border-color: #303030;
-}
-.btn > i {
-  font-size: 1em !important;
-  transition: all 200ms;
 }
 .down-arrow {
   font-size: 22px;
@@ -214,6 +259,7 @@ html {
 }
 .card-head {
   padding: 18px 0 18px;
+  margin-bottom: 10px;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
@@ -258,7 +304,7 @@ html {
 .card-end {
   margin-bottom: 0px;
 }
-.card-head-txt {
+.card-head-t {
   margin: 0 0 0 18px;
   color: #fbfbfb;
 }
@@ -298,41 +344,16 @@ html {
   line-height: 24px;
   color: #888888;
 }
-.g-title {
-  display: flex;
-  column-gap: 0.5em;
-  align-items: baseline;
-  margin-bottom: 0.3em;
-  flex-direction: row;
-}
-.title-txt {
-  font-weight: 600;
-  font-size: 16px;
-  text-decoration: none;
-}
-.title-txt > a > i {
-  font-size: 16px;
-  margin-right: 4px;
-  color: var(--kz-blue);
-  transition: all 200ms;
-}
-.title-date {
-  font-weight: 400;
-  font-size: 14px;
-  color: #a3a3a3;
-  text-decoration: none;
-  text-align: right;
-}
-.body-txt {
+.kz-info-data {
   display: block;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
   margin: 0 18px 0px 18px;
-  padding-top: 0.9em;
+  padding: 6px 0 6px;
 }
-.body-txt-th {
+.kz-info-data-th {
   font-family: Noto Sans Thai, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -343,20 +364,33 @@ html {
   display: block;
   margin: 2px 0 10px;
 }
+.date,
+.title {
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+.date {
+  display: inline;
+  font-size: 12px;
+  background-color: #f0f0f0;
+  color: #000000;
+  padding: 4px 8px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.title {
+  font-size: 16px;
+  color: var(--kz-blue);
+}
 .xtm8 {
   margin-top: 8px !important;
 }
-.nm {
-  margin: 0px !important;
-}
-.np {
-  padding: 0px !important;
-}
 .divide-hr {
-  height: 2px;
-  background-color: #303030;
+  height: 1px;
+  background-color: #373737;
   border-style: none;
-  margin: 14px 0 0 0;
+  margin: 10px 0 8px;
 }
 .data-link-888888:link,
 .data-link-888888:visited {
@@ -375,12 +409,13 @@ html {
 .data-link:hover {
   color: #34a6d6;
 }
-.body-txt:link,
-.body-txt:visited {
+.kz-info-data:link,
+.kz-info-data:visited {
   color: var(--apple-white);
   text-decoration: none;
 }
-.body-txt-nm {
+.kz-info-data-nm,
+.kz-info-data-end {
   display: block;
   font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   font-weight: 400;
@@ -421,7 +456,7 @@ html {
 /*text respondsive*/
 
 @media all and (max-width: 700px) {
-  .sty-btn,
+  .bh,
   .twt-button,
   .fb-button,
   .li-button,
@@ -434,7 +469,7 @@ html {
   .bigtext,
   .kz-blue,
   .kz-graphic,
-  .kz-writer,
+  .kz-photographer,
   .kz-ts,
   .kz-mc,
   .kz-era,
@@ -448,18 +483,21 @@ html {
 }
 @media all and (max-width: 500px) {
   .profile-name,
-  .body-txt-sh {
+  .kz-info-head {
+    font-size: 32px;
+  }
+  .info-data-sh {
     font-size: 20px;
   }
   .profile-desc,
-  .body-txt {
-    font-size: 14px;
-    line-height: 1.5em;
+  .kz-info-data,
+  .kz-info-data-end {
+    font-size: 14px !important;
   }
   .bigtext,
   .kz-blue,
   .kz-graphic,
-  .kz-writer,
+  .kz-photographer,
   .kz-ts,
   .kz-mc,
   .kz-era,
@@ -473,18 +511,16 @@ html {
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .g-title {
-    flex-direction: column;
-  }
 }
 @media all and (max-width: 400px) {
-  .profile-name {
+  .profile-name,
+  .kz-info-head {
     font-size: 28px;
   }
   .bigtext,
   .kz-blue,
   .kz-graphic,
-  .kz-writer,
+  .kz-photographer,
   .kz-ts,
   .kz-mc,
   .kz-era,
@@ -495,12 +531,15 @@ html {
 
 /*end of text respondsive*/
 
+.fa-solid,
+.fa-brands,
 .fa-solid:link,
 .fa-brands:link,
 .fa-solid:visited,
 .fa-brands:visited {
   text-decoration: none;
   color: var(--kz-blue);
+  transition: color 200ms;
 }
 .fa-solid:hover,
 .fa-brands:hover {
@@ -524,7 +563,7 @@ html {
 .fa-black:hover {
   color: #111111;
 }
-.sty-btn:active > .fa-black {
+.bh:active > .fa-black {
   color: var(--apple-white);
 }
 .fa-mm {
@@ -535,27 +574,39 @@ html {
   font-weight: 900;
   font-size: 16px;
 }
-.g-btn {
+.g-bh {
+  margin-top: 40px;
   display: flex;
   justify-content: center;
-  margin: 20px 0 40px 0;
-  column-gap: 16px;
-  transition: all 200ms;
 }
-.g-btn > a {
-  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
+.bh {
+  padding: 10px 16px 10px 16px;
+  border: none;
+  border-radius: 24px;
   font-size: 16px;
-  color: var(--apple-white);
-}
-.g-btn > a > i {
-  font-size: 18px;
+  text-decoration: none;
+  transition: box-shadow, color, background-color 200ms;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
+  font-weight: bold;
+  color: #111111;
+  background-color: var(--kz-blue);
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 1);
+  align-items: center;
+  margin-left: 8px;
   margin-right: 8px;
-  color: var(--apple-white);
 }
-.g-btn > a:hover,
-.g-btn > a:hover > i {
-  color: #a3a3a3;
-  transition: all 200ms;
+.bh:hover {
+  background-color: #56ccff99;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 1);
+}
+.bh:active {
+  border-width: 3px;
+  border: solid;
+  padding: 7px 13px 7px 13px;
+  color: var(--apple-white);
+  border-color: var(--kz-blue);
+  background-color: #161617;
 }
 .g-resume {
   display: flex;

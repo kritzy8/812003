@@ -46,6 +46,15 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   color: var(--apple-white);
 }
+.profile-name.th-txt,
+.title-txt.th-txt,
+.body-txt.th-txt,
+.smalltext.th-txt,
+.btn.th-txt,
+.card-head-txt.th-txt {
+  font-family: Noto Sans Thai, Arial, sans-serif;
+  color: var(--apple-white);
+}
 .bigtext {
   font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   font-weight: normal;
@@ -108,20 +117,6 @@ html {
   column-gap: 32px;
   margin: 36px 0 40px 0;
 }
-.sns-button > a {
-  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
-  font-size: 1em;
-  color: var(--apple-white);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-color: #404040;
-  transition: all 200ms;
-}
-.sns-button > a > i {
-  font-size: 16px;
-  margin-right: 0.5em;
-  transition: all 200ms;
-}
 .twt-button:hover,
 .fb-button:hover,
 .li-button:hover,
@@ -135,6 +130,20 @@ html {
 .ig-button:hover > .snsicon,
 .yt-button:hover > .snsicon {
   color: var(--gray);
+}
+.sns-button > a {
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
+  font-size: 16px;
+  color: var(--apple-white);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: #404040;
+  transition: all 200ms;
+}
+.sns-button > a > i {
+  font-size: 18px;
+  margin-right: 8px;
+  transition: all 200ms;
 }
 .scroll-down {
   display: flex;
@@ -175,7 +184,7 @@ html {
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
   font-weight: bold;
-  color: var(--apple-white);
+  color: #111111;
   background-color: var(--card-gray);
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.8);
   align-items: center;
@@ -185,6 +194,9 @@ html {
   background-color: var(--card-hover-gray);
   box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.2);
   border-color: #303030;
+}
+.btn.th-txt {
+  padding: 10px 16px 6px 16px !important;
 }
 .btn > i {
   font-size: 1em !important;
@@ -292,7 +304,7 @@ html {
 }
 .profile-desc {
   display: inline-block;
-  font-family: -apple-system, BlinkMacSystemFont, Inter, Arial, sans-serif;
+  font-family: Noto Sans Thai, Arial, sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
@@ -309,6 +321,9 @@ html {
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;
+}
+.title-txt.th-txt {
+  font-weight: 700;
 }
 .title-txt > a > i {
   font-size: 16px;
@@ -332,12 +347,8 @@ html {
   margin: 0 18px 0px 18px;
   padding-top: 0.9em;
 }
-.body-txt-th {
-  font-family: Noto Sans Thai, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: var(--apple-white);
-  text-decoration: none;
+.body-txt.th-txt {
+  font-weight: 400;
 }
 .h-info {
   display: block;
