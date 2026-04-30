@@ -22,13 +22,16 @@ html {
   width: 0.5em;
 }
 ::-webkit-scrollbar-track {
-  background: #000000;
+  background: #111111;
 }
 ::-webkit-scrollbar-thumb {
   background: #56ccff;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #34a6d6;
+}
+body {
+  background: #171717;
 }
 .intro {
   display: flex;
@@ -52,7 +55,10 @@ html {
 .smalltext.th-txt,
 .btn.th-txt,
 .card-head-txt.th-txt {
-  font-family: Noto Sans Thai, Arial, sans-serif;
+  font-family:
+    Noto Sans Thai,
+    Arial,
+    sans-serif;
   color: var(--apple-white);
 }
 .bigtext {
@@ -304,7 +310,10 @@ html {
 }
 .profile-desc {
   display: inline-block;
-  font-family: Noto Sans Thai, Arial, sans-serif;
+  font-family:
+    Noto Sans Thai,
+    Arial,
+    sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;

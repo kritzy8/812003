@@ -22,7 +22,7 @@ html {
   width: 0.5em;
 }
 ::-webkit-scrollbar-track {
-  background: #000000;
+  background: #111111;
 }
 ::-webkit-scrollbar-thumb {
   background: #56ccff;
@@ -31,7 +31,7 @@ html {
   background: #34a6d6;
 }
 body {
-  background: linear-gradient(135deg, #111111 0%, #171717 100%);
+  background: #171717;
 }
 .intro {
   display: flex;
