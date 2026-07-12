@@ -27,6 +27,7 @@ Redirect /mnnexample https://812003.xyz/mynextdoorneighbor/Example%20-%20My%20Ne
 RewriteRule ^fs2/?$ /frozenserver2/html/fs2.html
 RewriteRule ^fs2map/?$ /frozenserver2/fs2map
 RewriteRule ^lovster/?$ /lovster/lovster.html
+RewriteRule ^untiltheendoftime/?$ /untiltheendoftime/untiltheendoftime.html
 
 RewriteRule ^cooppaper/?$ /files/pdf/Process_of_making_visual_design_in_the_3DEXPERIENCE_Works_Innovation_Day_2025_event.pdf
 Redirect /coopslide https://www.canva.com/design/DAGbiEMAa4c/jwupmvxMic65SYiwjCdkDA/edit
@@ -61,6 +62,8 @@ Redirect /mnndoc https://docs.google.com/document/d/1HyJvv20sXfvqbnxDQsHDdDV-w4z
 Redirect /mnn https://812003.xyz/mynextdoorneighbor
 Redirect /lovsterdoc https://docs.google.com/document/d/1Dl-gPPV9BVbiHOHE1wAiglPt9P21SZoNPXGHJNL85pA/edit?usp=sharing
 Redirect /lovsterraw https://www.readawrite.com/a/aca30166b840f1726c680c3311e51511
+Redirect /untiltheendoftimedoc https://docs.google.com/document/d/1Nci7q3WjK8u9vR9445Y9RwabIo3bZ20MPHTCH_Q2Kes/edit?usp=sharing
+Redirect /untiltheendoftimeraw https://www.readawrite.com/a/c0253a5b10ec99ee2847db20821d1a21
 
 Redirect /hbd https://youtu.be/FXgBBsbKwMI?si=-2itD4hHLv8gpZyO&t=45
 RewriteRule ^valentine/?$ /html/valentine.html
